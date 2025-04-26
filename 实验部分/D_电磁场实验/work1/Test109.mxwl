@@ -1,0 +1,5548 @@
+$begin 'AnsoftProject'
+	Created='Wed Oct 09 17:01:06 2024'
+	FileOwnedByWorkbench=false
+	Product='Maxwell'
+	NextUniqueID=0
+	MoveBackwards=false
+	$begin 'Desktop'
+		Version(16, 0)
+		InfrastructureVersion(1, 0)
+	$end 'Desktop'
+	$begin 'Maxwell3DEnvironment'
+		Version(1, 0)
+	$end 'Maxwell3DEnvironment'
+	$begin 'Maxwell2DEnvironment'
+		Version(1, 0)
+	$end 'Maxwell2DEnvironment'
+	$begin 'RMxprtEnvironment'
+		Version(1, 0)
+	$end 'RMxprtEnvironment'
+	$begin 'geometry3deditor'
+		Version(1, 0)
+	$end 'geometry3deditor'
+	$begin 'ProjectDatasets'
+		NextUniqueID=0
+		MoveBackwards=false
+		DatasetType='ProjectDatasetType'
+		$begin 'DatasetDefinitions'
+		$end 'DatasetDefinitions'
+	$end 'ProjectDatasets'
+	$begin 'Definitions'
+		$begin 'Folders'
+			Definitions(1104, 10000, 1, 1, 0, false, false)
+			Materials(1104, 9500, 9, 2, 1, false, false)
+		$end 'Folders'
+		$begin 'Materials'
+			$begin 'vacuum'
+				CoordinateSystemType='Cartesian'
+				$begin 'AttachedData'
+				$end 'AttachedData'
+				$begin 'ModifierData'
+				$end 'ModifierData'
+				permittivity='1'
+				ModTime=1028307964
+				Library='Materials'
+				LibLocation='SysLibrary'
+				ModSinceLib=false
+			$end 'vacuum'
+			$begin 'copper'
+				CoordinateSystemType='Cartesian'
+				$begin 'AttachedData'
+				$end 'AttachedData'
+				$begin 'ModifierData'
+				$end 'ModifierData'
+				permeability='0.999991'
+				conductivity='58000000'
+				thermal_conductivity='400'
+				mass_density='8933'
+				specific_heat='385'
+				youngs_modulus='120000000000'
+				poissons_ratio='0.38'
+				thermal_expansion_coeffcient='1.77e-005'
+				ModTime=1132068239
+				Library='Materials'
+				LibLocation='SysLibrary'
+				ModSinceLib=false
+			$end 'copper'
+			$begin 'jiekou'
+				CoordinateSystemType='Cartesian'
+				$begin 'AttachedData'
+				$end 'AttachedData'
+				$begin 'ModifierData'
+				$end 'ModifierData'
+				permittivity='5'
+				ModTime=1728471185
+				Library=''
+				LibLocation='Project'
+				ModSinceLib=false
+			$end 'jiekou'
+			$begin 'jueyuan'
+				CoordinateSystemType='Cartesian'
+				$begin 'AttachedData'
+				$end 'AttachedData'
+				$begin 'ModifierData'
+				$end 'ModifierData'
+				permittivity='4'
+				ModTime=1728471213
+				Library=''
+				LibLocation='Project'
+				ModSinceLib=false
+			$end 'jueyuan'
+		$end 'Materials'
+		$begin 'Scripts'
+		$end 'Scripts'
+	$end 'Definitions'
+	DesignIDServer=4
+	MoveBackwards=false
+	$begin 'Maxwell2DModel'
+		RepRewriteV2=true
+		Name='Maxwell2DDesign1'
+		DesignID=2
+		$begin 'TemperatureSettings'
+			IncludeTemperatureDependence=false
+			Temperatures(923, '22cel')
+		$end 'TemperatureSettings'
+		ObjsEnabledForDeformation()
+		PerfectConductorThreshold=100000000000
+		InsulatorThreshold=1
+		BackgroundMaterialName='vacuum'
+		SolutionType='Electrostatic'
+		GeometryMode='about Z'
+		$begin 'OutputVariable'
+			NextUniqueID=0
+			MoveBackwards=false
+		$end 'OutputVariable'
+		$begin 'ModelSetup'
+			$begin 'Editor3D Doc Preferences'
+				'Plane Background'=true
+				BackgroundColor1=16777215
+				BackgroundColor2=0
+				'Need Lights'=true
+				'Ambient Light'=8355711
+				'Num Lights'=2
+				Light0[4: 8355711, 0.200000002980232, 0.400000005960464, 1]
+				Light1[4: 8355711, -0.200000002980232, -0.400000005960464, -1]
+			$end 'Editor3D Doc Preferences'
+			$begin 'DesignDatasets'
+				NextUniqueID=0
+				MoveBackwards=false
+				DatasetType='DesignDatasetType'
+				$begin 'DatasetDefinitions'
+				$end 'DatasetDefinitions'
+			$end 'DesignDatasets'
+			SnapMode=31
+			WorkingCS=1
+			$begin 'GeometryCore'
+				BlockVersionID=3
+				DataVersion=24
+				NativeKernel='ACIS'
+				NativeKernelVersionID=5
+				Units='mm'
+				InstanceID=-1
+				$begin 'ValidationOptions'
+					EntityCheckLevel='Strict'
+					IgnoreUnclassifiedObjects=false
+					SkipIntersectionChecks=false
+				$end 'ValidationOptions'
+				$begin 'GeometryOperations'
+					BlockVersionID=2
+					$begin 'AnsoftRangedIDServerManager'
+						$begin 'AnsoftRangedIDServer'
+							IDServerObjectTypeID=0
+							IDServerRangeMin=0
+							IDServerRangeMax=2146483647
+							NextUniqueID=935
+							MoveBackwards=false
+						$end 'AnsoftRangedIDServer'
+						$begin 'AnsoftRangedIDServer'
+							IDServerObjectTypeID=1
+							IDServerRangeMin=2146483648
+							IDServerRangeMax=2146485547
+							NextUniqueID=2146483654
+							MoveBackwards=false
+						$end 'AnsoftRangedIDServer'
+					$end 'AnsoftRangedIDServerManager'
+					StartBackGroundFaceID=2146483648
+					$begin 'CoordinateSystems'
+					$end 'CoordinateSystems'
+					$begin 'UserDefinedModels'
+					$end 'UserDefinedModels'
+					$begin 'ToplevelParts'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='daoxian1'
+								Flags=''
+								Color='(192 192 192)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='"copper"'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Rectangle'
+									ID=696
+									ReferenceCoordSystemID=1
+									$begin 'RectangleParameters'
+										KernelVersion=5
+										XStart='0mm'
+										YStart='0mm'
+										ZStart='0mm'
+										Width='-75mm'
+										Height='7.5mm'
+										WhichAxis='Y'
+									$end 'RectangleParameters'
+									ParentPartID=697
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=697
+										StartFaceID=-1
+										StartEdgeID=698
+										StartVertexID=702
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=706
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=697
+									$end 'LocalOperationParameters'
+									ParentPartID=697
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=707
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=707
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=562.5
+															FcUVMid(3.74999999999999, -5.65703521749878e-015, -37.5)
+															$begin 'FcTolVts'
+																TolVt(0, 0, 0, 0)
+																TolVt(-1.37772764904077e-014, -1.20609198725748e-014, -75, 0)
+																TolVt(7.49999999999999, -1.13140704349976e-014, -75, 0)
+																TolVt(7.5, 7.4684943757722e-016, -1.37772764904077e-015, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=696
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Unite'
+									ID=708
+									$begin 'UniteParameters'
+										KernelVersion=5
+										KeepOriginals=false
+										BlankPart=697
+										NumToolParts=1
+										ToolParts(752)
+									$end 'UniteParameters'
+									ParentPartID=697
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BlankOperation=706
+									NumToolOperations=1
+									ToolOperations(761)
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Unite'
+									ID=827
+									$begin 'UniteParameters'
+										KernelVersion=5
+										KeepOriginals=false
+										BlankPart=697
+										NumToolParts=1
+										ToolParts(539)
+									$end 'UniteParameters'
+									ParentPartID=697
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BlankOperation=708
+									NumToolOperations=1
+									ToolOperations(693)
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Substract'
+									ID=880
+									$begin 'SubtractParameters'
+										KernelVersion=5
+										KeepOriginals=false
+										BlankPart=697
+										NumToolParts=1
+										ToolParts(831)
+									$end 'SubtractParameters'
+									ParentPartID=697
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=881
+										StartVertexID=882
+										NumNewFaces=0
+										NumNewEdges=1
+										NumNewVertices=2
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+												$begin 'Edge'
+													NormalizedSerialNum=0
+													ID=881
+													EdgeFaces(707)
+													$begin 'EdTolVts'
+														TolVt(0, 2.98739775030888e-015, 75, 0)
+														TolVt(-2.75032243310435e-014, -1.20609198725748e-014, -75, 0)
+													$end 'EdTolVts'
+													EdgeMidPoint(-1.37259478406358e-014, -9.0735221222659e-015, 0)
+												$end 'Edge'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+												$begin 'Vertex'
+													NormalizedSerialNum=0
+													ID=882
+													VtPos(0, 2.98739775030888e-015, 75)
+												$end 'Vertex'
+												$begin 'Vertex'
+													NormalizedSerialNum=1
+													ID=883
+													VtPos(-2.75032243310435e-014, -1.20609198725748e-014, -75)
+												$end 'Vertex'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BlankOperation=827
+									NumToolOperations=1
+									ToolOperations(840)
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='jueyuan'
+								Flags=''
+								Color='(0 0 0)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='"jueyuan"'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Rectangle'
+									ID=709
+									ReferenceCoordSystemID=1
+									$begin 'RectangleParameters'
+										KernelVersion=5
+										XStart='0mm'
+										YStart='0mm'
+										ZStart='75mm'
+										Width='-150mm'
+										Height='10.5mm'
+										WhichAxis='Y'
+									$end 'RectangleParameters'
+									ParentPartID=710
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=710
+										StartFaceID=-1
+										StartEdgeID=711
+										StartVertexID=715
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=719
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=710
+									$end 'LocalOperationParameters'
+									ParentPartID=710
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=720
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=720
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=1575
+															FcUVMid(5.24999999999999, -1.15381252662707e-014, -7.11149951647261e-048)
+															$begin 'FcTolVts'
+																TolVt(0, 0, 75, 0)
+																TolVt(-2.75545529808154e-014, -2.41218397451496e-014, -75, 0)
+																TolVt(10.5, -2.30762505325414e-014, -75, 0)
+																TolVt(10.5, 1.04558921260811e-015, 75, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=709
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Substract'
+									ID=721
+									$begin 'SubtractParameters'
+										KernelVersion=5
+										KeepOriginals=false
+										BlankPart=710
+										NumToolParts=1
+										ToolParts(764)
+									$end 'SubtractParameters'
+									ParentPartID=710
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=722
+										StartVertexID=723
+										NumNewFaces=0
+										NumNewEdges=1
+										NumNewVertices=2
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+												$begin 'Edge'
+													NormalizedSerialNum=0
+													ID=722
+													EdgeFaces(720)
+													$begin 'EdTolVts'
+														TolVt(7.50000000000001, 1.2807769310152e-014, 75, 0)
+														TolVt(7.49999999999999, -1.13140704349976e-014, -75, 0)
+													$end 'EdTolVts'
+													EdgeMidPoint(7.5, 7.4684943757722e-016, 0)
+												$end 'Edge'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+												$begin 'Vertex'
+													NormalizedSerialNum=0
+													ID=723
+													VtPos(7.50000000000001, 1.2807769310152e-014, 75)
+												$end 'Vertex'
+												$begin 'Vertex'
+													NormalizedSerialNum=1
+													ID=724
+													VtPos(7.49999999999999, -1.13140704349976e-014, -75)
+												$end 'Vertex'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BlankOperation=719
+									NumToolOperations=1
+									ToolOperations(775)
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Substract'
+									ID=725
+									$begin 'SubtractParameters'
+										KernelVersion=5
+										KeepOriginals=false
+										BlankPart=710
+										NumToolParts=1
+										ToolParts(802)
+									$end 'SubtractParameters'
+									ParentPartID=710
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=2
+											NumShells=2
+											NumFaces=2
+											NumWires=0
+											NumLoops=2
+											NumCoedges=8
+											NumEdges=8
+											NumVertices=8
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=726
+										StartEdgeID=728
+										StartVertexID=734
+										NumNewFaces=2
+										NumNewEdges=6
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=726
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=67.8239999999995
+															FcUVMid(8.99999999999998, -2.09576850472179e-014, -60.897)
+															$begin 'FcTolVts'
+																TolVt(10.5, -1.85403797868635e-014, -46.7940000000001, 0)
+																TolVt(7.5, 0, -57.99, 0)
+																TolVt(7.49999999999999, -1.13140704349976e-014, -75, 0)
+																TolVt(10.5, -2.30762505325414e-014, -75, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+												$begin 'Face'
+													NormalizedSerialNum=1
+													ID=727
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=67.8239999999997
+															FcUVMid(9, -1.3717160477463e-015, 60.897)
+															$begin 'FcTolVts'
+																TolVt(7.5, 0, 57.99, 0)
+																TolVt(10.5, -3.49028153306981e-015, 46.794, 0)
+																TolVt(10.5, 1.04558921260811e-015, 75, 0)
+																TolVt(7.50000000000001, 1.2807769310152e-014, 75, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+												$begin 'Edge'
+													NormalizedSerialNum=0
+													ID=728
+													EdgeFaces(726)
+													$begin 'EdTolVts'
+														TolVt(10.5, -1.85403797868635e-014, -46.7940000000001, 0)
+														TolVt(7.5, 0, -57.99, 0)
+													$end 'EdTolVts'
+													EdgeMidPoint(8.99999999999999, 0, -52.392)
+												$end 'Edge'
+												$begin 'Edge'
+													NormalizedSerialNum=1
+													ID=729
+													EdgeFaces(726)
+													$begin 'EdTolVts'
+														TolVt(7.5, 0, -57.99, 0)
+														TolVt(7.49999999999999, -1.13140704349976e-014, -75, 0)
+													$end 'EdTolVts'
+													EdgeMidPoint(7.49999999999999, -9.94636212144758e-015, -66.495)
+												$end 'Edge'
+												$begin 'Edge'
+													NormalizedSerialNum=2
+													ID=730
+													EdgeFaces(726)
+													$begin 'EdTolVts'
+														TolVt(10.5, -2.30762505325414e-014, -75, 0)
+														TolVt(10.5, -1.85403797868635e-014, -46.7940000000001, 0)
+													$end 'EdTolVts'
+													EdgeMidPoint(10.5, -2.08083151597025e-014, -60.897)
+												$end 'Edge'
+												$begin 'Edge'
+													NormalizedSerialNum=3
+													ID=731
+													EdgeFaces(727)
+													$begin 'EdTolVts'
+														TolVt(7.5, 0, 57.99, 0)
+														TolVt(10.5, -3.49028153306981e-015, 46.794, 0)
+													$end 'EdTolVts'
+													EdgeMidPoint(8.99999999999999, 0, 52.392)
+												$end 'Edge'
+												$begin 'Edge'
+													NormalizedSerialNum=4
+													ID=732
+													EdgeFaces(727)
+													$begin 'EdTolVts'
+														TolVt(10.5, -3.49028153306981e-015, 46.794, 0)
+														TolVt(10.5, 1.04558921260811e-015, 75, 0)
+													$end 'EdTolVts'
+													EdgeMidPoint(10.5, -1.22234616023085e-015, 60.897)
+												$end 'Edge'
+												$begin 'Edge'
+													NormalizedSerialNum=5
+													ID=733
+													EdgeFaces(727)
+													$begin 'EdTolVts'
+														TolVt(7.50000000000001, 1.2807769310152e-014, 75, 0)
+														TolVt(7.5, 0, 57.99, 0)
+													$end 'EdTolVts'
+													EdgeMidPoint(7.50000000000001, 1.1440060996602e-014, 66.495)
+												$end 'Edge'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+												$begin 'Vertex'
+													NormalizedSerialNum=0
+													ID=734
+													VtPos(10.5, -1.85403797868635e-014, -46.7940000000001)
+												$end 'Vertex'
+												$begin 'Vertex'
+													NormalizedSerialNum=1
+													ID=735
+													VtPos(7.5, 0, -57.99)
+												$end 'Vertex'
+												$begin 'Vertex'
+													NormalizedSerialNum=2
+													ID=736
+													VtPos(7.5, 0, 57.99)
+												$end 'Vertex'
+												$begin 'Vertex'
+													NormalizedSerialNum=3
+													ID=737
+													VtPos(10.5, -3.49028153306981e-015, 46.794)
+												$end 'Vertex'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BlankOperation=721
+									NumToolOperations=1
+									ToolOperations(813)
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Unite'
+									ID=829
+									$begin 'UniteParameters'
+										KernelVersion=5
+										KeepOriginals=false
+										BlankPart=710
+										NumToolParts=1
+										ToolParts(552)
+									$end 'UniteParameters'
+									ParentPartID=710
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=4
+											NumShells=4
+											NumFaces=4
+											NumWires=0
+											NumLoops=4
+											NumCoedges=16
+											NumEdges=16
+											NumVertices=16
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BlankOperation=725
+									NumToolOperations=1
+									ToolOperations(694)
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Substract'
+									ID=921
+									$begin 'SubtractParameters'
+										KernelVersion=5
+										KeepOriginals=false
+										BlankPart=710
+										NumToolParts=1
+										ToolParts(898)
+									$end 'SubtractParameters'
+									ParentPartID=710
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=2
+											NumShells=2
+											NumFaces=2
+											NumWires=0
+											NumLoops=2
+											NumCoedges=8
+											NumEdges=8
+											NumVertices=8
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BlankOperation=829
+									NumToolOperations=1
+									ToolOperations(907)
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='jiekou'
+								Flags=''
+								Color='(128 0 255)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='"jiekou"'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Polyline'
+									ID=738
+									ReferenceCoordSystemID=1
+									$begin 'PolylineParameters'
+										KernelVersion=5
+										IsPolylineClosed=true
+										$begin 'PolylinePoints'
+											$begin 'PLPoint'
+												X='7.5mm'
+												Y='0mm'
+												Z='57.99mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='15mm'
+												Y='0mm'
+												Z='30mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='15mm'
+												Y='0mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='7.5mm'
+												Y='0mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='7.5mm'
+												Y='0mm'
+												Z='57.99mm'
+											$end 'PLPoint'
+										$end 'PolylinePoints'
+										$begin 'PolylineSegments'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=0
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=1
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=2
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=3
+												NoOfPoints=2
+											$end 'PLSegment'
+										$end 'PolylineSegments'
+										$begin 'PolylineXSection'
+											XSectionType='None'
+											XSectionOrient='Auto'
+											XSectionWidth='0mm'
+											XSectionTopWidth='0mm'
+											XSectionHeight='0mm'
+											XSectionNumSegments='0'
+											XSectionBendType='Corner'
+										$end 'PolylineXSection'
+									$end 'PolylineParameters'
+									ParentPartID=739
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=739
+										StartFaceID=-1
+										StartEdgeID=740
+										StartVertexID=744
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=748
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=739
+									$end 'LocalOperationParameters'
+									ParentPartID=739
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=749
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=749
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=329.9625
+															FcUVMid(11.25, 0, 28.995)
+															$begin 'FcTolVts'
+																TolVt(7.5, 0, 57.99, 0)
+																TolVt(15, 0, 30, 0)
+																TolVt(15, 0, 0, 0)
+																TolVt(7.5, 0, 0, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=738
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Unite'
+									ID=750
+									$begin 'UniteParameters'
+										KernelVersion=5
+										KeepOriginals=false
+										BlankPart=739
+										NumToolParts=1
+										ToolParts(789)
+									$end 'UniteParameters'
+									ParentPartID=739
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BlankOperation=748
+									NumToolOperations=1
+									ToolOperations(800)
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Unite'
+									ID=828
+									$begin 'UniteParameters'
+										KernelVersion=5
+										KeepOriginals=false
+										BlankPart=739
+										NumToolParts=1
+										ToolParts(607)
+									$end 'UniteParameters'
+									ParentPartID=739
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=2
+											NumShells=2
+											NumFaces=2
+											NumWires=0
+											NumLoops=2
+											NumCoedges=8
+											NumEdges=8
+											NumVertices=8
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BlankOperation=750
+									NumToolOperations=1
+									ToolOperations(695)
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Substract'
+									ID=896
+									$begin 'SubtractParameters'
+										KernelVersion=5
+										KeepOriginals=false
+										BlankPart=739
+										NumToolParts=1
+										ToolParts(885)
+									$end 'SubtractParameters'
+									ParentPartID=739
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BlankOperation=828
+									NumToolOperations=1
+									ToolOperations(894)
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='quyu'
+								Flags=''
+								Color='(132 132 193)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='"vacuum"'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Rectangle'
+									ID=922
+									ReferenceCoordSystemID=1
+									$begin 'RectangleParameters'
+										KernelVersion=5
+										XStart='15mm'
+										YStart='0mm'
+										ZStart='120mm'
+										Width='-240mm'
+										Height='60mm'
+										WhichAxis='Y'
+									$end 'RectangleParameters'
+									ParentPartID=923
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=923
+										StartFaceID=-1
+										StartEdgeID=924
+										StartVertexID=928
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=932
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=923
+									$end 'LocalOperationParameters'
+									ParentPartID=923
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=933
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=933
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=14400
+															FcUVMid(45, -1.63100740458108e-014, -7.105427357601e-015)
+															$begin 'FcTolVts'
+																TolVt(15, 0, 120, 0)
+																TolVt(15, -3.85949435922393e-014, -120, 0)
+																TolVt(75, -3.26201480916215e-014, -120, 0)
+																TolVt(75, 5.97479550061776e-015, 120, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=922
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Move'
+									ID=934
+									ReferenceCoordSystemID=1
+									$begin 'TranslateParameters'
+										KernelVersion=5
+										PartID=923
+										TranslateVectorX='-15mm'
+										TranslateVectorY='0mm'
+										TranslateVectorZ='0mm'
+									$end 'TranslateParameters'
+									ParentPartID=923
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									TranformBaseOperationID=932
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+					$end 'ToplevelParts'
+					$begin 'OperandParts'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Rectangle1'
+								Flags=''
+								Color='(132 132 193)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='""'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Rectangle'
+									ID=526
+									ReferenceCoordSystemID=1
+									$begin 'RectangleParameters'
+										KernelVersion=5
+										XStart='0mm'
+										YStart='0mm'
+										ZStart='0mm'
+										Width='75mm'
+										Height='7.5mm'
+										WhichAxis='Y'
+									$end 'RectangleParameters'
+									ParentPartID=527
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=527
+										StartFaceID=-1
+										StartEdgeID=528
+										StartVertexID=532
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=536
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=527
+									$end 'LocalOperationParameters'
+									ParentPartID=527
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=537
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=537
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=562.5
+															FcUVMid(3.75000000000001, 6.403884655076e-015, 37.5)
+															$begin 'FcTolVts'
+																TolVt(0, 0, 0, 0)
+																TolVt(1.37772764904077e-014, 1.20609198725748e-014, 75, 0)
+																TolVt(7.50000000000001, 1.2807769310152e-014, 75, 0)
+																TolVt(7.5, 7.4684943757722e-016, -1.37772764904077e-015, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=526
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='daoxian'
+								Flags=''
+								Color='(192 192 192)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='""'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Rectangle'
+									ID=538
+									ReferenceCoordSystemID=1
+									$begin 'RectangleParameters'
+										KernelVersion=5
+										XStart='0mm'
+										YStart='0mm'
+										ZStart='0mm'
+										Width='-75mm'
+										Height='7.5mm'
+										WhichAxis='Y'
+									$end 'RectangleParameters'
+									ParentPartID=539
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=539
+										StartFaceID=-1
+										StartEdgeID=540
+										StartVertexID=544
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=548
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=539
+									$end 'LocalOperationParameters'
+									ParentPartID=539
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=549
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=549
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=562.5
+															FcUVMid(3.74999999999999, -5.65703521749878e-015, -37.5)
+															$begin 'FcTolVts'
+																TolVt(0, 0, 0, 0)
+																TolVt(-1.37772764904077e-014, -1.20609198725748e-014, -75, 0)
+																TolVt(7.49999999999999, -1.13140704349976e-014, -75, 0)
+																TolVt(7.5, 7.4684943757722e-016, -1.37772764904077e-015, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=538
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Unite'
+									ID=550
+									$begin 'UniteParameters'
+										KernelVersion=5
+										KeepOriginals=false
+										BlankPart=539
+										NumToolParts=1
+										ToolParts(527)
+									$end 'UniteParameters'
+									ParentPartID=539
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BlankOperation=548
+									NumToolOperations=1
+									ToolOperations(536)
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Mirror'
+									ID=693
+									ReferenceCoordSystemID=1
+									$begin 'MirrorParameters'
+										KernelVersion=5
+										PartID=539
+										MirrorBaseX='0mm'
+										MirrorBaseY='0mm'
+										MirrorBaseZ='0mm'
+										MirrorNormalX='-1mm'
+										MirrorNormalY='0mm'
+										MirrorNormalZ='0mm'
+									$end 'MirrorParameters'
+									ParentPartID=539
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									TranformBaseOperationID=550
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Rectangle3'
+								Flags=''
+								Color='(132 132 193)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='""'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Rectangle'
+									ID=551
+									ReferenceCoordSystemID=1
+									$begin 'RectangleParameters'
+										KernelVersion=5
+										XStart='0mm'
+										YStart='0mm'
+										ZStart='75mm'
+										Width='-150mm'
+										Height='10.5mm'
+										WhichAxis='Y'
+									$end 'RectangleParameters'
+									ParentPartID=552
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=552
+										StartFaceID=-1
+										StartEdgeID=553
+										StartVertexID=557
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=561
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=552
+									$end 'LocalOperationParameters'
+									ParentPartID=552
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=562
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=562
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=1575
+															FcUVMid(5.24999999999999, -1.15381252662707e-014, -7.11149951647261e-048)
+															$begin 'FcTolVts'
+																TolVt(0, 0, 75, 0)
+																TolVt(-2.75545529808154e-014, -2.41218397451496e-014, -75, 0)
+																TolVt(10.5, -2.30762505325414e-014, -75, 0)
+																TolVt(10.5, 1.04558921260811e-015, 75, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=551
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Substract'
+									ID=588
+									$begin 'SubtractParameters'
+										KernelVersion=5
+										KeepOriginals=false
+										BlankPart=552
+										NumToolParts=1
+										ToolParts(564)
+									$end 'SubtractParameters'
+									ParentPartID=552
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=589
+										StartVertexID=590
+										NumNewFaces=0
+										NumNewEdges=1
+										NumNewVertices=2
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+												$begin 'Edge'
+													NormalizedSerialNum=0
+													ID=589
+													EdgeFaces(562)
+													$begin 'EdTolVts'
+														TolVt(7.50000000000001, 1.2807769310152e-014, 75, 0)
+														TolVt(7.49999999999999, -1.13140704349976e-014, -75, 0)
+													$end 'EdTolVts'
+													EdgeMidPoint(7.5, 7.4684943757722e-016, 0)
+												$end 'Edge'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+												$begin 'Vertex'
+													NormalizedSerialNum=0
+													ID=590
+													VtPos(7.50000000000001, 1.2807769310152e-014, 75)
+												$end 'Vertex'
+												$begin 'Vertex'
+													NormalizedSerialNum=1
+													ID=591
+													VtPos(7.49999999999999, -1.13140704349976e-014, -75)
+												$end 'Vertex'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BlankOperation=561
+									NumToolOperations=1
+									ToolOperations(575)
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Substract'
+									ID=648
+									$begin 'SubtractParameters'
+										KernelVersion=5
+										KeepOriginals=false
+										BlankPart=552
+										NumToolParts=1
+										ToolParts(620)
+									$end 'SubtractParameters'
+									ParentPartID=552
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=2
+											NumShells=2
+											NumFaces=2
+											NumWires=0
+											NumLoops=2
+											NumCoedges=8
+											NumEdges=8
+											NumVertices=8
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=649
+										StartEdgeID=651
+										StartVertexID=657
+										NumNewFaces=2
+										NumNewEdges=6
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=649
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=67.8239999999995
+															FcUVMid(8.99999999999998, -2.09576850472179e-014, -60.897)
+															$begin 'FcTolVts'
+																TolVt(10.5, -1.85403797868635e-014, -46.7940000000001, 0)
+																TolVt(7.5, 0, -57.99, 0)
+																TolVt(7.49999999999999, -1.13140704349976e-014, -75, 0)
+																TolVt(10.5, -2.30762505325414e-014, -75, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+												$begin 'Face'
+													NormalizedSerialNum=1
+													ID=650
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=67.8239999999997
+															FcUVMid(9, -1.3717160477463e-015, 60.897)
+															$begin 'FcTolVts'
+																TolVt(7.5, 0, 57.99, 0)
+																TolVt(10.5, -3.49028153306981e-015, 46.794, 0)
+																TolVt(10.5, 1.04558921260811e-015, 75, 0)
+																TolVt(7.50000000000001, 1.2807769310152e-014, 75, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+												$begin 'Edge'
+													NormalizedSerialNum=0
+													ID=651
+													EdgeFaces(649)
+													$begin 'EdTolVts'
+														TolVt(10.5, -1.85403797868635e-014, -46.7940000000001, 0)
+														TolVt(7.5, 0, -57.99, 0)
+													$end 'EdTolVts'
+													EdgeMidPoint(8.99999999999999, 0, -52.392)
+												$end 'Edge'
+												$begin 'Edge'
+													NormalizedSerialNum=1
+													ID=652
+													EdgeFaces(649)
+													$begin 'EdTolVts'
+														TolVt(7.5, 0, -57.99, 0)
+														TolVt(7.49999999999999, -1.13140704349976e-014, -75, 0)
+													$end 'EdTolVts'
+													EdgeMidPoint(7.49999999999999, -9.94636212144758e-015, -66.495)
+												$end 'Edge'
+												$begin 'Edge'
+													NormalizedSerialNum=2
+													ID=653
+													EdgeFaces(649)
+													$begin 'EdTolVts'
+														TolVt(10.5, -2.30762505325414e-014, -75, 0)
+														TolVt(10.5, -1.85403797868635e-014, -46.7940000000001, 0)
+													$end 'EdTolVts'
+													EdgeMidPoint(10.5, -2.08083151597025e-014, -60.897)
+												$end 'Edge'
+												$begin 'Edge'
+													NormalizedSerialNum=3
+													ID=654
+													EdgeFaces(650)
+													$begin 'EdTolVts'
+														TolVt(7.5, 0, 57.99, 0)
+														TolVt(10.5, -3.49028153306981e-015, 46.794, 0)
+													$end 'EdTolVts'
+													EdgeMidPoint(8.99999999999999, 0, 52.392)
+												$end 'Edge'
+												$begin 'Edge'
+													NormalizedSerialNum=4
+													ID=655
+													EdgeFaces(650)
+													$begin 'EdTolVts'
+														TolVt(10.5, -3.49028153306981e-015, 46.794, 0)
+														TolVt(10.5, 1.04558921260811e-015, 75, 0)
+													$end 'EdTolVts'
+													EdgeMidPoint(10.5, -1.22234616023085e-015, 60.897)
+												$end 'Edge'
+												$begin 'Edge'
+													NormalizedSerialNum=5
+													ID=656
+													EdgeFaces(650)
+													$begin 'EdTolVts'
+														TolVt(7.50000000000001, 1.2807769310152e-014, 75, 0)
+														TolVt(7.5, 0, 57.99, 0)
+													$end 'EdTolVts'
+													EdgeMidPoint(7.50000000000001, 1.1440060996602e-014, 66.495)
+												$end 'Edge'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+												$begin 'Vertex'
+													NormalizedSerialNum=0
+													ID=657
+													VtPos(10.5, -1.85403797868635e-014, -46.7940000000001)
+												$end 'Vertex'
+												$begin 'Vertex'
+													NormalizedSerialNum=1
+													ID=658
+													VtPos(7.5, 0, -57.99)
+												$end 'Vertex'
+												$begin 'Vertex'
+													NormalizedSerialNum=2
+													ID=659
+													VtPos(7.5, 0, 57.99)
+												$end 'Vertex'
+												$begin 'Vertex'
+													NormalizedSerialNum=3
+													ID=660
+													VtPos(10.5, -3.49028153306981e-015, 46.794)
+												$end 'Vertex'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BlankOperation=588
+									NumToolOperations=1
+									ToolOperations(631)
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Mirror'
+									ID=694
+									ReferenceCoordSystemID=1
+									$begin 'MirrorParameters'
+										KernelVersion=5
+										PartID=552
+										MirrorBaseX='0mm'
+										MirrorBaseY='0mm'
+										MirrorBaseZ='0mm'
+										MirrorNormalX='-1mm'
+										MirrorNormalY='0mm'
+										MirrorNormalZ='0mm'
+									$end 'MirrorParameters'
+									ParentPartID=552
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=2
+											NumShells=2
+											NumFaces=2
+											NumWires=0
+											NumLoops=2
+											NumCoedges=8
+											NumEdges=8
+											NumVertices=8
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									TranformBaseOperationID=648
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Rectangle4'
+								Flags=''
+								Color='(132 132 193)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='""'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Rectangle'
+									ID=563
+									ReferenceCoordSystemID=1
+									$begin 'RectangleParameters'
+										KernelVersion=5
+										XStart='0mm'
+										YStart='0mm'
+										ZStart='0mm'
+										Width='-75mm'
+										Height='7.5mm'
+										WhichAxis='Y'
+									$end 'RectangleParameters'
+									ParentPartID=564
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=564
+										StartFaceID=-1
+										StartEdgeID=565
+										StartVertexID=569
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=573
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=564
+									$end 'LocalOperationParameters'
+									ParentPartID=564
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=574
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=574
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=562.5
+															FcUVMid(3.74999999999999, -5.65703521749878e-015, -37.5)
+															$begin 'FcTolVts'
+																TolVt(0, 0, 0, 0)
+																TolVt(-1.37772764904077e-014, -1.20609198725748e-014, -75, 0)
+																TolVt(7.49999999999999, -1.13140704349976e-014, -75, 0)
+																TolVt(7.5, 7.4684943757722e-016, -1.37772764904077e-015, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=563
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Unite'
+									ID=575
+									$begin 'UniteParameters'
+										KernelVersion=5
+										KeepOriginals=false
+										BlankPart=564
+										NumToolParts=1
+										ToolParts(577)
+									$end 'UniteParameters'
+									ParentPartID=564
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BlankOperation=573
+									NumToolOperations=1
+									ToolOperations(586)
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Rectangle5'
+								Flags=''
+								Color='(132 132 193)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='""'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Rectangle'
+									ID=576
+									ReferenceCoordSystemID=1
+									$begin 'RectangleParameters'
+										KernelVersion=5
+										XStart='0mm'
+										YStart='0mm'
+										ZStart='0mm'
+										Width='75mm'
+										Height='7.5mm'
+										WhichAxis='Y'
+									$end 'RectangleParameters'
+									ParentPartID=577
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=577
+										StartFaceID=-1
+										StartEdgeID=578
+										StartVertexID=582
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=586
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=577
+									$end 'LocalOperationParameters'
+									ParentPartID=577
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=587
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=587
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=562.5
+															FcUVMid(3.75000000000001, 6.403884655076e-015, 37.5)
+															$begin 'FcTolVts'
+																TolVt(0, 0, 0, 0)
+																TolVt(1.37772764904077e-014, 1.20609198725748e-014, 75, 0)
+																TolVt(7.50000000000001, 1.2807769310152e-014, 75, 0)
+																TolVt(7.5, 7.4684943757722e-016, -1.37772764904077e-015, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=576
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Polyline1'
+								Flags=''
+								Color='(132 132 193)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='""'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Polyline'
+									ID=592
+									ReferenceCoordSystemID=1
+									$begin 'PolylineParameters'
+										KernelVersion=5
+										IsPolylineClosed=true
+										$begin 'PolylinePoints'
+											$begin 'PLPoint'
+												X='7.5mm'
+												Y='0mm'
+												Z='57.99mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='15mm'
+												Y='0mm'
+												Z='30mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='15mm'
+												Y='0mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='7.5mm'
+												Y='0mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='7.5mm'
+												Y='0mm'
+												Z='57.99mm'
+											$end 'PLPoint'
+										$end 'PolylinePoints'
+										$begin 'PolylineSegments'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=0
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=1
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=2
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=3
+												NoOfPoints=2
+											$end 'PLSegment'
+										$end 'PolylineSegments'
+										$begin 'PolylineXSection'
+											XSectionType='None'
+											XSectionOrient='Auto'
+											XSectionWidth='0mm'
+											XSectionTopWidth='0mm'
+											XSectionHeight='0mm'
+											XSectionNumSegments='0'
+											XSectionBendType='Corner'
+										$end 'PolylineXSection'
+									$end 'PolylineParameters'
+									ParentPartID=593
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=593
+										StartFaceID=-1
+										StartEdgeID=594
+										StartVertexID=598
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=602
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=593
+									$end 'LocalOperationParameters'
+									ParentPartID=593
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=603
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=603
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=329.9625
+															FcUVMid(11.25, 0, 28.995)
+															$begin 'FcTolVts'
+																TolVt(7.5, 0, 57.99, 0)
+																TolVt(15, 0, 30, 0)
+																TolVt(15, 0, 0, 0)
+																TolVt(7.5, 0, 0, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=592
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Mirror'
+									ID=605
+									ReferenceCoordSystemID=1
+									$begin 'MirrorParameters'
+										KernelVersion=5
+										PartID=593
+										MirrorBaseX='7.5mm'
+										MirrorBaseY='0mm'
+										MirrorBaseZ='0mm'
+										MirrorNormalX='0mm'
+										MirrorNormalY='0mm'
+										MirrorNormalZ='-1mm'
+									$end 'MirrorParameters'
+									ParentPartID=593
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									TranformBaseOperationID=602
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Polyline2'
+								Flags=''
+								Color='(132 132 193)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='""'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Polyline'
+									ID=606
+									ReferenceCoordSystemID=1
+									$begin 'PolylineParameters'
+										KernelVersion=5
+										IsPolylineClosed=true
+										$begin 'PolylinePoints'
+											$begin 'PLPoint'
+												X='7.5mm'
+												Y='0mm'
+												Z='57.99mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='15mm'
+												Y='0mm'
+												Z='30mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='15mm'
+												Y='0mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='7.5mm'
+												Y='0mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='7.5mm'
+												Y='0mm'
+												Z='57.99mm'
+											$end 'PLPoint'
+										$end 'PolylinePoints'
+										$begin 'PolylineSegments'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=0
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=1
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=2
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=3
+												NoOfPoints=2
+											$end 'PLSegment'
+										$end 'PolylineSegments'
+										$begin 'PolylineXSection'
+											XSectionType='None'
+											XSectionOrient='Auto'
+											XSectionWidth='0mm'
+											XSectionTopWidth='0mm'
+											XSectionHeight='0mm'
+											XSectionNumSegments='0'
+											XSectionBendType='Corner'
+										$end 'PolylineXSection'
+									$end 'PolylineParameters'
+									ParentPartID=607
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=607
+										StartFaceID=-1
+										StartEdgeID=608
+										StartVertexID=612
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=616
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=607
+									$end 'LocalOperationParameters'
+									ParentPartID=607
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=617
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=617
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=329.9625
+															FcUVMid(11.25, 0, 28.995)
+															$begin 'FcTolVts'
+																TolVt(7.5, 0, 57.99, 0)
+																TolVt(15, 0, 30, 0)
+																TolVt(15, 0, 0, 0)
+																TolVt(7.5, 0, 0, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=606
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Unite'
+									ID=618
+									$begin 'UniteParameters'
+										KernelVersion=5
+										KeepOriginals=false
+										BlankPart=607
+										NumToolParts=1
+										ToolParts(593)
+									$end 'UniteParameters'
+									ParentPartID=607
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BlankOperation=616
+									NumToolOperations=1
+									ToolOperations(605)
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Mirror'
+									ID=695
+									ReferenceCoordSystemID=1
+									$begin 'MirrorParameters'
+										KernelVersion=5
+										PartID=607
+										MirrorBaseX='0mm'
+										MirrorBaseY='0mm'
+										MirrorBaseZ='0mm'
+										MirrorNormalX='-1mm'
+										MirrorNormalY='0mm'
+										MirrorNormalZ='0mm'
+									$end 'MirrorParameters'
+									ParentPartID=607
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									TranformBaseOperationID=618
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Polyline3'
+								Flags=''
+								Color='(132 132 193)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='""'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Polyline'
+									ID=619
+									ReferenceCoordSystemID=1
+									$begin 'PolylineParameters'
+										KernelVersion=5
+										IsPolylineClosed=true
+										$begin 'PolylinePoints'
+											$begin 'PLPoint'
+												X='7.5mm'
+												Y='0mm'
+												Z='57.99mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='15mm'
+												Y='0mm'
+												Z='30mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='15mm'
+												Y='0mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='7.5mm'
+												Y='0mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='7.5mm'
+												Y='0mm'
+												Z='57.99mm'
+											$end 'PLPoint'
+										$end 'PolylinePoints'
+										$begin 'PolylineSegments'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=0
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=1
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=2
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=3
+												NoOfPoints=2
+											$end 'PLSegment'
+										$end 'PolylineSegments'
+										$begin 'PolylineXSection'
+											XSectionType='None'
+											XSectionOrient='Auto'
+											XSectionWidth='0mm'
+											XSectionTopWidth='0mm'
+											XSectionHeight='0mm'
+											XSectionNumSegments='0'
+											XSectionBendType='Corner'
+										$end 'PolylineXSection'
+									$end 'PolylineParameters'
+									ParentPartID=620
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=620
+										StartFaceID=-1
+										StartEdgeID=621
+										StartVertexID=625
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=629
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=620
+									$end 'LocalOperationParameters'
+									ParentPartID=620
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=630
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=630
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=329.9625
+															FcUVMid(11.25, 0, 28.995)
+															$begin 'FcTolVts'
+																TolVt(7.5, 0, 57.99, 0)
+																TolVt(15, 0, 30, 0)
+																TolVt(15, 0, 0, 0)
+																TolVt(7.5, 0, 0, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=619
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Unite'
+									ID=631
+									$begin 'UniteParameters'
+										KernelVersion=5
+										KeepOriginals=false
+										BlankPart=620
+										NumToolParts=1
+										ToolParts(633)
+									$end 'UniteParameters'
+									ParentPartID=620
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BlankOperation=629
+									NumToolOperations=1
+									ToolOperations(644)
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Polyline4'
+								Flags=''
+								Color='(132 132 193)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='""'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Polyline'
+									ID=632
+									ReferenceCoordSystemID=1
+									$begin 'PolylineParameters'
+										KernelVersion=5
+										IsPolylineClosed=true
+										$begin 'PolylinePoints'
+											$begin 'PLPoint'
+												X='7.5mm'
+												Y='0mm'
+												Z='57.99mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='15mm'
+												Y='0mm'
+												Z='30mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='15mm'
+												Y='0mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='7.5mm'
+												Y='0mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='7.5mm'
+												Y='0mm'
+												Z='57.99mm'
+											$end 'PLPoint'
+										$end 'PolylinePoints'
+										$begin 'PolylineSegments'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=0
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=1
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=2
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=3
+												NoOfPoints=2
+											$end 'PLSegment'
+										$end 'PolylineSegments'
+										$begin 'PolylineXSection'
+											XSectionType='None'
+											XSectionOrient='Auto'
+											XSectionWidth='0mm'
+											XSectionTopWidth='0mm'
+											XSectionHeight='0mm'
+											XSectionNumSegments='0'
+											XSectionBendType='Corner'
+										$end 'PolylineXSection'
+									$end 'PolylineParameters'
+									ParentPartID=633
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=633
+										StartFaceID=-1
+										StartEdgeID=634
+										StartVertexID=638
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=642
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=633
+									$end 'LocalOperationParameters'
+									ParentPartID=633
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=643
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=643
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=329.9625
+															FcUVMid(11.25, 0, 28.995)
+															$begin 'FcTolVts'
+																TolVt(7.5, 0, 57.99, 0)
+																TolVt(15, 0, 30, 0)
+																TolVt(15, 0, 0, 0)
+																TolVt(7.5, 0, 0, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=632
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Mirror'
+									ID=644
+									ReferenceCoordSystemID=1
+									$begin 'MirrorParameters'
+										KernelVersion=5
+										PartID=633
+										MirrorBaseX='7.5mm'
+										MirrorBaseY='0mm'
+										MirrorBaseZ='0mm'
+										MirrorNormalX='0mm'
+										MirrorNormalY='0mm'
+										MirrorNormalZ='-1mm'
+									$end 'MirrorParameters'
+									ParentPartID=633
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									TranformBaseOperationID=642
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Rectangle7'
+								Flags=''
+								Color='(132 132 193)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='""'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Rectangle'
+									ID=751
+									ReferenceCoordSystemID=1
+									$begin 'RectangleParameters'
+										KernelVersion=5
+										XStart='0mm'
+										YStart='0mm'
+										ZStart='0mm'
+										Width='75mm'
+										Height='7.5mm'
+										WhichAxis='Y'
+									$end 'RectangleParameters'
+									ParentPartID=752
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=752
+										StartFaceID=-1
+										StartEdgeID=753
+										StartVertexID=757
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=761
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=752
+									$end 'LocalOperationParameters'
+									ParentPartID=752
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=762
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=762
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=562.5
+															FcUVMid(3.75000000000001, 6.403884655076e-015, 37.5)
+															$begin 'FcTolVts'
+																TolVt(0, 0, 0, 0)
+																TolVt(1.37772764904077e-014, 1.20609198725748e-014, 75, 0)
+																TolVt(7.50000000000001, 1.2807769310152e-014, 75, 0)
+																TolVt(7.5, 7.4684943757722e-016, -1.37772764904077e-015, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=751
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Rectangle8'
+								Flags=''
+								Color='(132 132 193)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='""'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Rectangle'
+									ID=763
+									ReferenceCoordSystemID=1
+									$begin 'RectangleParameters'
+										KernelVersion=5
+										XStart='0mm'
+										YStart='0mm'
+										ZStart='0mm'
+										Width='-75mm'
+										Height='7.5mm'
+										WhichAxis='Y'
+									$end 'RectangleParameters'
+									ParentPartID=764
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=764
+										StartFaceID=-1
+										StartEdgeID=765
+										StartVertexID=769
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=773
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=764
+									$end 'LocalOperationParameters'
+									ParentPartID=764
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=774
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=774
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=562.5
+															FcUVMid(3.74999999999999, -5.65703521749878e-015, -37.5)
+															$begin 'FcTolVts'
+																TolVt(0, 0, 0, 0)
+																TolVt(-1.37772764904077e-014, -1.20609198725748e-014, -75, 0)
+																TolVt(7.49999999999999, -1.13140704349976e-014, -75, 0)
+																TolVt(7.5, 7.4684943757722e-016, -1.37772764904077e-015, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=763
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Unite'
+									ID=775
+									$begin 'UniteParameters'
+										KernelVersion=5
+										KeepOriginals=false
+										BlankPart=764
+										NumToolParts=1
+										ToolParts(777)
+									$end 'UniteParameters'
+									ParentPartID=764
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BlankOperation=773
+									NumToolOperations=1
+									ToolOperations(786)
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Rectangle9'
+								Flags=''
+								Color='(132 132 193)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='""'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Rectangle'
+									ID=776
+									ReferenceCoordSystemID=1
+									$begin 'RectangleParameters'
+										KernelVersion=5
+										XStart='0mm'
+										YStart='0mm'
+										ZStart='0mm'
+										Width='75mm'
+										Height='7.5mm'
+										WhichAxis='Y'
+									$end 'RectangleParameters'
+									ParentPartID=777
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=777
+										StartFaceID=-1
+										StartEdgeID=778
+										StartVertexID=782
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=786
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=777
+									$end 'LocalOperationParameters'
+									ParentPartID=777
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=787
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=787
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=562.5
+															FcUVMid(3.75000000000001, 6.403884655076e-015, 37.5)
+															$begin 'FcTolVts'
+																TolVt(0, 0, 0, 0)
+																TolVt(1.37772764904077e-014, 1.20609198725748e-014, 75, 0)
+																TolVt(7.50000000000001, 1.2807769310152e-014, 75, 0)
+																TolVt(7.5, 7.4684943757722e-016, -1.37772764904077e-015, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=776
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Polyline6'
+								Flags=''
+								Color='(132 132 193)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='""'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Polyline'
+									ID=788
+									ReferenceCoordSystemID=1
+									$begin 'PolylineParameters'
+										KernelVersion=5
+										IsPolylineClosed=true
+										$begin 'PolylinePoints'
+											$begin 'PLPoint'
+												X='7.5mm'
+												Y='0mm'
+												Z='57.99mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='15mm'
+												Y='0mm'
+												Z='30mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='15mm'
+												Y='0mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='7.5mm'
+												Y='0mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='7.5mm'
+												Y='0mm'
+												Z='57.99mm'
+											$end 'PLPoint'
+										$end 'PolylinePoints'
+										$begin 'PolylineSegments'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=0
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=1
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=2
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=3
+												NoOfPoints=2
+											$end 'PLSegment'
+										$end 'PolylineSegments'
+										$begin 'PolylineXSection'
+											XSectionType='None'
+											XSectionOrient='Auto'
+											XSectionWidth='0mm'
+											XSectionTopWidth='0mm'
+											XSectionHeight='0mm'
+											XSectionNumSegments='0'
+											XSectionBendType='Corner'
+										$end 'PolylineXSection'
+									$end 'PolylineParameters'
+									ParentPartID=789
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=789
+										StartFaceID=-1
+										StartEdgeID=790
+										StartVertexID=794
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=798
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=789
+									$end 'LocalOperationParameters'
+									ParentPartID=789
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=799
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=799
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=329.9625
+															FcUVMid(11.25, 0, 28.995)
+															$begin 'FcTolVts'
+																TolVt(7.5, 0, 57.99, 0)
+																TolVt(15, 0, 30, 0)
+																TolVt(15, 0, 0, 0)
+																TolVt(7.5, 0, 0, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=788
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Mirror'
+									ID=800
+									ReferenceCoordSystemID=1
+									$begin 'MirrorParameters'
+										KernelVersion=5
+										PartID=789
+										MirrorBaseX='7.5mm'
+										MirrorBaseY='0mm'
+										MirrorBaseZ='0mm'
+										MirrorNormalX='0mm'
+										MirrorNormalY='0mm'
+										MirrorNormalZ='-1mm'
+									$end 'MirrorParameters'
+									ParentPartID=789
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									TranformBaseOperationID=798
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Polyline7'
+								Flags=''
+								Color='(132 132 193)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='""'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Polyline'
+									ID=801
+									ReferenceCoordSystemID=1
+									$begin 'PolylineParameters'
+										KernelVersion=5
+										IsPolylineClosed=true
+										$begin 'PolylinePoints'
+											$begin 'PLPoint'
+												X='7.5mm'
+												Y='0mm'
+												Z='57.99mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='15mm'
+												Y='0mm'
+												Z='30mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='15mm'
+												Y='0mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='7.5mm'
+												Y='0mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='7.5mm'
+												Y='0mm'
+												Z='57.99mm'
+											$end 'PLPoint'
+										$end 'PolylinePoints'
+										$begin 'PolylineSegments'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=0
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=1
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=2
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=3
+												NoOfPoints=2
+											$end 'PLSegment'
+										$end 'PolylineSegments'
+										$begin 'PolylineXSection'
+											XSectionType='None'
+											XSectionOrient='Auto'
+											XSectionWidth='0mm'
+											XSectionTopWidth='0mm'
+											XSectionHeight='0mm'
+											XSectionNumSegments='0'
+											XSectionBendType='Corner'
+										$end 'PolylineXSection'
+									$end 'PolylineParameters'
+									ParentPartID=802
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=802
+										StartFaceID=-1
+										StartEdgeID=803
+										StartVertexID=807
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=811
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=802
+									$end 'LocalOperationParameters'
+									ParentPartID=802
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=812
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=812
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=329.9625
+															FcUVMid(11.25, 0, 28.995)
+															$begin 'FcTolVts'
+																TolVt(7.5, 0, 57.99, 0)
+																TolVt(15, 0, 30, 0)
+																TolVt(15, 0, 0, 0)
+																TolVt(7.5, 0, 0, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=801
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Unite'
+									ID=813
+									$begin 'UniteParameters'
+										KernelVersion=5
+										KeepOriginals=false
+										BlankPart=802
+										NumToolParts=1
+										ToolParts(815)
+									$end 'UniteParameters'
+									ParentPartID=802
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BlankOperation=811
+									NumToolOperations=1
+									ToolOperations(826)
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Polyline8'
+								Flags=''
+								Color='(132 132 193)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='""'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Polyline'
+									ID=814
+									ReferenceCoordSystemID=1
+									$begin 'PolylineParameters'
+										KernelVersion=5
+										IsPolylineClosed=true
+										$begin 'PolylinePoints'
+											$begin 'PLPoint'
+												X='7.5mm'
+												Y='0mm'
+												Z='57.99mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='15mm'
+												Y='0mm'
+												Z='30mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='15mm'
+												Y='0mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='7.5mm'
+												Y='0mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='7.5mm'
+												Y='0mm'
+												Z='57.99mm'
+											$end 'PLPoint'
+										$end 'PolylinePoints'
+										$begin 'PolylineSegments'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=0
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=1
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=2
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=3
+												NoOfPoints=2
+											$end 'PLSegment'
+										$end 'PolylineSegments'
+										$begin 'PolylineXSection'
+											XSectionType='None'
+											XSectionOrient='Auto'
+											XSectionWidth='0mm'
+											XSectionTopWidth='0mm'
+											XSectionHeight='0mm'
+											XSectionNumSegments='0'
+											XSectionBendType='Corner'
+										$end 'PolylineXSection'
+									$end 'PolylineParameters'
+									ParentPartID=815
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=815
+										StartFaceID=-1
+										StartEdgeID=816
+										StartVertexID=820
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=824
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=815
+									$end 'LocalOperationParameters'
+									ParentPartID=815
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=825
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=825
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=329.9625
+															FcUVMid(11.25, 0, 28.995)
+															$begin 'FcTolVts'
+																TolVt(7.5, 0, 57.99, 0)
+																TolVt(15, 0, 30, 0)
+																TolVt(15, 0, 0, 0)
+																TolVt(7.5, 0, 0, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=814
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Mirror'
+									ID=826
+									ReferenceCoordSystemID=1
+									$begin 'MirrorParameters'
+										KernelVersion=5
+										PartID=815
+										MirrorBaseX='7.5mm'
+										MirrorBaseY='0mm'
+										MirrorBaseZ='0mm'
+										MirrorNormalX='0mm'
+										MirrorNormalY='0mm'
+										MirrorNormalZ='-1mm'
+									$end 'MirrorParameters'
+									ParentPartID=815
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									TranformBaseOperationID=824
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Rectangle10'
+								Flags=''
+								Color='(132 132 193)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='""'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Rectangle'
+									ID=830
+									ReferenceCoordSystemID=1
+									$begin 'RectangleParameters'
+										KernelVersion=5
+										XStart='-30mm'
+										YStart='0mm'
+										ZStart='75mm'
+										Width='-155mm'
+										Height='30mm'
+										WhichAxis='Y'
+									$end 'RectangleParameters'
+									ParentPartID=831
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=831
+										StartFaceID=-1
+										StartEdgeID=832
+										StartVertexID=836
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=840
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=831
+									$end 'LocalOperationParameters'
+									ParentPartID=831
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=841
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=841
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=4650
+															FcUVMid(-15, -1.09692516598395e-014, -2.5)
+															$begin 'FcTolVts'
+																TolVt(-30, 0, 75, 0)
+																TolVt(-30, -2.49259010699879e-014, -80, 0)
+																TolVt(-2.8421709430404e-014, -2.1938503319679e-014, -80, 0)
+																TolVt(0, 2.98739775030888e-015, 75, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=830
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Rectangle11'
+								Flags=''
+								Color='(132 132 193)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='""'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Rectangle'
+									ID=884
+									ReferenceCoordSystemID=1
+									$begin 'RectangleParameters'
+										KernelVersion=5
+										XStart='-30mm'
+										YStart='0mm'
+										ZStart='75mm'
+										Width='-155mm'
+										Height='30mm'
+										WhichAxis='Y'
+									$end 'RectangleParameters'
+									ParentPartID=885
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=885
+										StartFaceID=-1
+										StartEdgeID=886
+										StartVertexID=890
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=894
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=885
+									$end 'LocalOperationParameters'
+									ParentPartID=885
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=895
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=895
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=4650
+															FcUVMid(-15, -1.09692516598395e-014, -2.5)
+															$begin 'FcTolVts'
+																TolVt(-30, 0, 75, 0)
+																TolVt(-30, -2.49259010699879e-014, -80, 0)
+																TolVt(-2.8421709430404e-014, -2.1938503319679e-014, -80, 0)
+																TolVt(0, 2.98739775030888e-015, 75, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=884
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Rectangle12'
+								Flags=''
+								Color='(132 132 193)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								MaterialValue='""'
+								SolveInside=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Rectangle'
+									ID=897
+									ReferenceCoordSystemID=1
+									$begin 'RectangleParameters'
+										KernelVersion=5
+										XStart='-30mm'
+										YStart='0mm'
+										ZStart='75mm'
+										Width='-155mm'
+										Height='30mm'
+										WhichAxis='Y'
+									$end 'RectangleParameters'
+									ParentPartID=898
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=898
+										StartFaceID=-1
+										StartEdgeID=899
+										StartVertexID=903
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=907
+									$begin 'LocalOperationParameters'
+										KernelVersion=5
+										LocalOpPart=898
+									$end 'LocalOperationParameters'
+									ParentPartID=898
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=908
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=908
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=4650
+															FcUVMid(-15, -1.09692516598395e-014, -2.5)
+															$begin 'FcTolVts'
+																TolVt(-30, 0, 75, 0)
+																TolVt(-30, -2.49259010699879e-014, -80, 0)
+																TolVt(-2.8421709430404e-014, -2.1938503319679e-014, -80, 0)
+																TolVt(0, 2.98739775030888e-015, 75, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=897
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+					$end 'OperandParts'
+					$begin 'Planes'
+					$end 'Planes'
+					$begin 'Points'
+						$begin 'GeometryPoint'
+							$begin 'Attributes'
+								Name='Point1'
+								Color='(132 132 193)'
+							$end 'Attributes'
+							$begin 'Operation'
+								OperationType='Point'
+								ID=53
+								ReferenceCoordSystemID=1
+								$begin 'PointParameters'
+									KernelVersion=5
+									PointX='-50mm'
+									PointY='25mm'
+									PointZ='0mm'
+								$end 'PointParameters'
+								ParentPartID=-1
+							$end 'Operation'
+						$end 'GeometryPoint'
+					$end 'Points'
+					$begin 'GeometryEntityLists'
+					$end 'GeometryEntityLists'
+					$begin 'RegionIdentity'
+						$begin 'Topology'
+							NumLumps=1
+							NumShells=1
+							NumFaces=1
+							NumWires=0
+							NumLoops=1
+							NumCoedges=4
+							NumEdges=4
+							NumVertices=4
+						$end 'Topology'
+						BodyID=514
+						StartFaceID=515
+						StartEdgeID=516
+						StartVertexID=520
+						NumNewFaces=1
+						NumNewEdges=4
+						NumNewVertices=4
+						FaceNameAndIDMap()
+						EdgeNameAndIDMap()
+						VertexNameAndIDMap()
+					$end 'RegionIdentity'
+					$begin 'CachedNames'
+						$begin 'allobjects'
+							allobjects(-1)
+						$end 'allobjects'
+						$begin 'daoxian'
+							daoxian(-1, 1)
+						$end 'daoxian'
+						$begin 'global'
+							global(-1)
+						$end 'global'
+						$begin 'jiekou'
+							jiekou(-1)
+						$end 'jiekou'
+						$begin 'jueyuan'
+							jueyuan(-1)
+						$end 'jueyuan'
+						$begin 'point'
+							point(1)
+						$end 'point'
+						$begin 'polyline'
+							polyline(1, 2, 3, 4, 6, 7, 8)
+						$end 'polyline'
+						$begin 'quyu'
+							quyu(-1)
+						$end 'quyu'
+						$begin 'rectangle'
+							rectangle(1, 3, 4, 5, 7, 8, 9, 10, 11, 12)
+						$end 'rectangle'
+					$end 'CachedNames'
+				$end 'GeometryOperations'
+				$begin 'GeometryDependencies'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 696)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 706)
+						DependencyObject('GeometryBodyOperation', 696)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 708)
+						DependencyObject('GeometryBodyOperation', 706)
+						DependencyObject('GeometryBodyOperation', 761)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 827)
+						DependencyObject('GeometryBodyOperation', 708)
+						DependencyObject('GeometryBodyOperation', 693)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 880)
+						DependencyObject('GeometryBodyOperation', 827)
+						DependencyObject('GeometryBodyOperation', 840)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 709)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 719)
+						DependencyObject('GeometryBodyOperation', 709)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 721)
+						DependencyObject('GeometryBodyOperation', 719)
+						DependencyObject('GeometryBodyOperation', 775)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 725)
+						DependencyObject('GeometryBodyOperation', 721)
+						DependencyObject('GeometryBodyOperation', 813)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 829)
+						DependencyObject('GeometryBodyOperation', 725)
+						DependencyObject('GeometryBodyOperation', 694)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 921)
+						DependencyObject('GeometryBodyOperation', 829)
+						DependencyObject('GeometryBodyOperation', 907)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 738)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 748)
+						DependencyObject('GeometryBodyOperation', 738)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 750)
+						DependencyObject('GeometryBodyOperation', 748)
+						DependencyObject('GeometryBodyOperation', 800)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 828)
+						DependencyObject('GeometryBodyOperation', 750)
+						DependencyObject('GeometryBodyOperation', 695)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 896)
+						DependencyObject('GeometryBodyOperation', 828)
+						DependencyObject('GeometryBodyOperation', 894)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 922)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 932)
+						DependencyObject('GeometryBodyOperation', 922)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 934)
+						DependencyObject('CoordinateSystem', 1)
+						DependencyObject('GeometryBodyOperation', 932)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 526)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 536)
+						DependencyObject('GeometryBodyOperation', 526)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 538)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 548)
+						DependencyObject('GeometryBodyOperation', 538)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 550)
+						DependencyObject('GeometryBodyOperation', 548)
+						DependencyObject('GeometryBodyOperation', 536)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 693)
+						DependencyObject('CoordinateSystem', 1)
+						DependencyObject('GeometryBodyOperation', 550)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 551)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 561)
+						DependencyObject('GeometryBodyOperation', 551)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 588)
+						DependencyObject('GeometryBodyOperation', 561)
+						DependencyObject('GeometryBodyOperation', 575)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 648)
+						DependencyObject('GeometryBodyOperation', 588)
+						DependencyObject('GeometryBodyOperation', 631)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 694)
+						DependencyObject('CoordinateSystem', 1)
+						DependencyObject('GeometryBodyOperation', 648)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 563)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 573)
+						DependencyObject('GeometryBodyOperation', 563)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 575)
+						DependencyObject('GeometryBodyOperation', 573)
+						DependencyObject('GeometryBodyOperation', 586)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 576)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 586)
+						DependencyObject('GeometryBodyOperation', 576)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 592)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 602)
+						DependencyObject('GeometryBodyOperation', 592)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 605)
+						DependencyObject('CoordinateSystem', 1)
+						DependencyObject('GeometryBodyOperation', 602)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 606)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 616)
+						DependencyObject('GeometryBodyOperation', 606)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 618)
+						DependencyObject('GeometryBodyOperation', 616)
+						DependencyObject('GeometryBodyOperation', 605)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 695)
+						DependencyObject('CoordinateSystem', 1)
+						DependencyObject('GeometryBodyOperation', 618)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 619)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 629)
+						DependencyObject('GeometryBodyOperation', 619)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 631)
+						DependencyObject('GeometryBodyOperation', 629)
+						DependencyObject('GeometryBodyOperation', 644)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 632)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 642)
+						DependencyObject('GeometryBodyOperation', 632)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 644)
+						DependencyObject('GeometryBodyOperation', 642)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 751)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 761)
+						DependencyObject('GeometryBodyOperation', 751)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 763)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 773)
+						DependencyObject('GeometryBodyOperation', 763)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 775)
+						DependencyObject('GeometryBodyOperation', 773)
+						DependencyObject('GeometryBodyOperation', 786)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 776)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 786)
+						DependencyObject('GeometryBodyOperation', 776)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 788)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 798)
+						DependencyObject('GeometryBodyOperation', 788)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 800)
+						DependencyObject('GeometryBodyOperation', 798)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 801)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 811)
+						DependencyObject('GeometryBodyOperation', 801)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 813)
+						DependencyObject('GeometryBodyOperation', 811)
+						DependencyObject('GeometryBodyOperation', 826)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 814)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 824)
+						DependencyObject('GeometryBodyOperation', 814)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 826)
+						DependencyObject('GeometryBodyOperation', 824)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 830)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 840)
+						DependencyObject('GeometryBodyOperation', 830)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 884)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 894)
+						DependencyObject('GeometryBodyOperation', 884)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 897)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 907)
+						DependencyObject('GeometryBodyOperation', 897)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryOperation', 53)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+				$end 'GeometryDependencies'
+			$end 'GeometryCore'
+			GroupByMaterial()
+			GroupSheetByMaterial('-1'=true)
+			$begin 'LastUserInputs'
+			$end 'LastUserInputs'
+		$end 'ModelSetup'
+		$begin 'BoundarySetup'
+			$begin 'GlobalBoundData'
+			$end 'GlobalBoundData'
+			$begin 'Boundaries'
+				NextUniqueID=4
+				MoveBackwards=false
+				$begin 'B1'
+					ID=3
+					BoundType='Balloon'
+					Edges(926)
+					ParentBndID=-1
+					IsOfTypeVoltage=true
+				$end 'B1'
+				$begin 'V1'
+					ID=0
+					BoundType='Voltage'
+					Objects(697)
+					ParentBndID=-1
+					Value='14140V'
+					CoordinateSystem=-1
+				$end 'V1'
+				$begin 'V2'
+					ID=1
+					BoundType='Voltage'
+					Objects(710)
+					ParentBndID=-1
+					Value='0V'
+					CoordinateSystem=-1
+				$end 'V2'
+			$end 'Boundaries'
+			$begin 'ProductSpecificData'
+			$end 'ProductSpecificData'
+		$end 'BoundarySetup'
+		$begin 'MaxwellParameterSetup'
+			$begin 'MaxwellParameters'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'MaxwellParameters'
+			MotionParams()
+		$end 'MaxwellParameterSetup'
+		$begin 'MeshSetup'
+			$begin 'MeshSettings'
+				$begin 'GlobalSurfApproximation'
+					SurfDevChoice=0
+					NormalDevChoice=1
+					AspectRatioChoice=1
+					PullToTrueSurf=false
+					SetFacePreservationLevel=0
+				$end 'GlobalSurfApproximation'
+				MeshMethod='Auto'
+			$end 'MeshSettings'
+			$begin 'MeshOperations'
+				NextUniqueID=1
+				MoveBackwards=false
+				$begin 'Length1'
+					Type='LengthBased'
+					RefineInside=true
+					ID=0
+					Enabled=true
+					Objects(923)
+					RestrictElem=false
+					NumMaxElem='1000'
+					RestrictLength=true
+					MaxLength='2mm'
+				$end 'Length1'
+			$end 'MeshOperations'
+		$end 'MeshSetup'
+		$begin 'AnalysisSetup'
+			$begin 'SolveSetups'
+				NextUniqueID=1
+				MoveBackwards=false
+				$begin 'Setup1'
+					ID=0
+					SetupType='Electrostatic'
+					Enabled=true
+					MaximumPasses=10
+					MinimumPasses=2
+					MinimumConvergedPasses=1
+					PercentRefinement=30
+					SolveFieldOnly=false
+					PercentError=1
+					SolveMatrixAtLast=true
+					PercentError=1
+				$end 'Setup1'
+			$end 'SolveSetups'
+		$end 'AnalysisSetup'
+		$begin 'Optimetrics'
+			$begin 'OptimetricsSetups'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'OptimetricsSetups'
+		$end 'Optimetrics'
+		$begin 'Solutions'
+		$end 'Solutions'
+		$begin 'FieldsReporter'
+			$begin 'FieldsCalculator'
+				Line_Discretization=1000
+			$end 'FieldsCalculator'
+			$begin 'PlotDefaults'
+				Default_SolutionId=102
+				Default_PlotFolder='Automatic'
+			$end 'PlotDefaults'
+			$begin 'FieldsPlotManagerID'
+				NextUniqueID=5
+				MoveBackwards=false
+				NumQuantityType=2
+				$begin 'QuantityFolder_1'
+					PlotFolder='E'
+					'Real time mode'=true
+					$begin 'ColorMapSettings'
+						ColorMapType='Spectrum'
+						SpectrumType='Rainbow'
+						UniformColor(127, 255, 255)
+						RampColor(255, 127, 127)
+					$end 'ColorMapSettings'
+					$begin 'Scale3DSettings'
+						unit=154
+						m_nLevels=15
+						minvalue=0
+						maxvalue=22624000000
+						log=false
+						IntrinsicMin=0
+						IntrinsicMax=22624000000
+						LimitFieldValuePrecision=false
+						FieldValuePrecisionDigits=4
+						ScaleType=0
+						UserSpecifyValues(15, 0, 1616000000, 3232000000, 4848000000, 6464000000, 8080000000, 9696000000, 11312000000, 12928000000, 14544000000, 16160000000, 17776001024, 19392000000, 21007998976, 22624000000)
+					$end 'Scale3DSettings'
+					$begin 'Marker3DSettings'
+						MarkerType=9
+						MarkerMapSize=true
+						MarkerMapColor=false
+						MarkerSize=0.25
+					$end 'Marker3DSettings'
+					$begin 'Arrow3DSettings'
+						ArrowType=1
+						ArrowMapSize=true
+						ArrowMapColor=true
+						ShowArrowTail=true
+						ArrowSize=0.25
+					$end 'Arrow3DSettings'
+					$begin 'DeformScaleSettings'
+						ShowDeformation=true
+						MinScaleFactor=0
+						MaxScaleFactor=1
+						DeformationScale=0
+					$end 'DeformScaleSettings'
+				$end 'QuantityFolder_1'
+				$begin 'QuantityFolder_2'
+					PlotFolder='Voltage'
+					'Real time mode'=true
+					$begin 'ColorMapSettings'
+						ColorMapType='Spectrum'
+						SpectrumType='Rainbow'
+						UniformColor(127, 255, 255)
+						RampColor(255, 127, 127)
+					$end 'ColorMapSettings'
+					$begin 'Scale3DSettings'
+						unit=68
+						m_nLevels=15
+						minvalue=0
+						maxvalue=14140.0009765625
+						log=false
+						IntrinsicMin=0
+						IntrinsicMax=14140.0009765625
+						LimitFieldValuePrecision=false
+						FieldValuePrecisionDigits=4
+						ScaleType=0
+						UserSpecifyValues(15, 0, 1010.00006103516, 2020.00012207031, 3030.00024414063, 4040.00024414063, 5050.00048828125, 6060.00048828125, 7070.00048828125, 8080.00048828125, 9090.0009765625, 10100.0009765625, 11110.0009765625, 12120.0009765625, 13130.0009765625, 14140.0009765625)
+					$end 'Scale3DSettings'
+					$begin 'Marker3DSettings'
+						MarkerType=9
+						MarkerMapSize=true
+						MarkerMapColor=false
+						MarkerSize=0.25
+					$end 'Marker3DSettings'
+					$begin 'Arrow3DSettings'
+						ArrowType=1
+						ArrowMapSize=true
+						ArrowMapColor=true
+						ShowArrowTail=true
+						ArrowSize=0.25
+					$end 'Arrow3DSettings'
+					$begin 'DeformScaleSettings'
+						ShowDeformation=true
+						MinScaleFactor=0
+						MaxScaleFactor=1
+						DeformationScale=0
+					$end 'DeformScaleSettings'
+				$end 'QuantityFolder_2'
+				NumPlots=5
+				$begin 'PlotDefinition_1'
+					PlotName='Voltage1'
+					PlotDefinitionId=0
+					VersionID=1
+					SolutionId=102
+					QuantityId=300
+					PlotFolder='Voltage'
+					UserSpecifyName=0
+					UserSpecifyFolder=0
+					StreamlinePlot=false
+					IntrinsicVar=''
+					FieldPlotGeometry(1, 128, 2, 5, 707, 727, 726, 749, 933)
+					FilterIds(0)
+					$begin 'PlotOnSurfaceSettings'
+						Filled=false
+						IsoValType='Fringe'
+						SmoothShade=true
+						AddGrid=false
+						MapTransparency=true
+						Refinement=0
+						Transparency=0
+						$begin 'Arrow3DSpacingSettings'
+							ArrowUniform=true
+							ArrowSpacing=3.7107949256897
+							MinArrowSpacing=2.47386336326599
+							MaxArrowSpacing=4.94772672653198
+						$end 'Arrow3DSpacingSettings'
+						GridColor(255, 255, 255)
+					$end 'PlotOnSurfaceSettings'
+				$end 'PlotDefinition_1'
+				$begin 'PlotDefinition_2'
+					PlotName='Mag_E1'
+					PlotDefinitionId=1
+					VersionID=1
+					SolutionId=102
+					QuantityId=302
+					PlotFolder='E'
+					UserSpecifyName=0
+					UserSpecifyFolder=0
+					StreamlinePlot=false
+					IntrinsicVar=''
+					FieldPlotGeometry(1, 128, 2, 5, 707, 727, 726, 749, 933)
+					FilterIds(0)
+					$begin 'PlotOnSurfaceSettings'
+						Filled=false
+						IsoValType='Fringe'
+						SmoothShade=true
+						AddGrid=false
+						MapTransparency=true
+						Refinement=0
+						Transparency=0
+						$begin 'Arrow3DSpacingSettings'
+							ArrowUniform=true
+							ArrowSpacing=3.7107949256897
+							MinArrowSpacing=2.47386336326599
+							MaxArrowSpacing=4.94772672653198
+						$end 'Arrow3DSpacingSettings'
+						GridColor(255, 255, 255)
+					$end 'PlotOnSurfaceSettings'
+				$end 'PlotDefinition_2'
+				$begin 'PlotDefinition_3'
+					PlotName='Voltage2'
+					PlotDefinitionId=2
+					VersionID=1
+					SolutionId=102
+					QuantityId=300
+					PlotFolder='Voltage'
+					UserSpecifyName=0
+					UserSpecifyFolder=0
+					StreamlinePlot=false
+					IntrinsicVar=''
+					FieldPlotGeometry(1, 128, 2, 5, 707, 727, 726, 749, 933)
+					FilterIds(0)
+					$begin 'PlotOnSurfaceSettings'
+						Filled=false
+						IsoValType='Fringe'
+						SmoothShade=true
+						AddGrid=false
+						MapTransparency=true
+						Refinement=0
+						Transparency=0
+						$begin 'Arrow3DSpacingSettings'
+							ArrowUniform=true
+							ArrowSpacing=3.7107949256897
+							MinArrowSpacing=2.47386336326599
+							MaxArrowSpacing=4.94772672653198
+						$end 'Arrow3DSpacingSettings'
+						GridColor(255, 255, 255)
+					$end 'PlotOnSurfaceSettings'
+				$end 'PlotDefinition_3'
+				$begin 'PlotDefinition_4'
+					PlotName='Mag_E2'
+					PlotDefinitionId=3
+					VersionID=1
+					SolutionId=102
+					QuantityId=302
+					PlotFolder='E'
+					UserSpecifyName=0
+					UserSpecifyFolder=0
+					StreamlinePlot=false
+					IntrinsicVar=''
+					FieldPlotGeometry(1, 128, 2, 5, 707, 727, 726, 749, 933)
+					FilterIds(0)
+					$begin 'PlotOnSurfaceSettings'
+						Filled=false
+						IsoValType='Fringe'
+						SmoothShade=true
+						AddGrid=false
+						MapTransparency=true
+						Refinement=0
+						Transparency=0
+						$begin 'Arrow3DSpacingSettings'
+							ArrowUniform=true
+							ArrowSpacing=3.7107949256897
+							MinArrowSpacing=2.47386336326599
+							MaxArrowSpacing=4.94772672653198
+						$end 'Arrow3DSpacingSettings'
+						GridColor(255, 255, 255)
+					$end 'PlotOnSurfaceSettings'
+				$end 'PlotDefinition_4'
+				$begin 'PlotDefinition_5'
+					PlotName='Mag_E3'
+					PlotDefinitionId=4
+					VersionID=0
+					SolutionId=102
+					QuantityId=302
+					PlotFolder='E'
+					UserSpecifyName=0
+					UserSpecifyFolder=0
+					StreamlinePlot=false
+					IntrinsicVar=''
+					FieldPlotGeometry(1, 128, 2, 5, 707, 727, 726, 749, 933)
+					FilterIds(0)
+					$begin 'PlotOnSurfaceSettings'
+						Filled=false
+						IsoValType='Fringe'
+						SmoothShade=true
+						AddGrid=false
+						MapTransparency=true
+						Refinement=0
+						Transparency=0
+						$begin 'Arrow3DSpacingSettings'
+							ArrowUniform=true
+							ArrowSpacing=3.7107949256897
+							MinArrowSpacing=2.47386336326599
+							MaxArrowSpacing=4.94772672653198
+						$end 'Arrow3DSpacingSettings'
+						GridColor(255, 255, 255)
+					$end 'PlotOnSurfaceSettings'
+				$end 'PlotDefinition_5'
+			$end 'FieldsPlotManagerID'
+			$begin 'Report3dInGeomWnd'
+				Report3dNum=0
+			$end 'Report3dInGeomWnd'
+		$end 'FieldsReporter'
+		$begin 'SolutionManager'
+			$begin 'SimSetup'
+				TypeName='BaseSetup'
+				ID=100
+				Name='Setup1'
+				$begin 'Solution'
+					ID=101
+					Name='AdaptivePass'
+					$begin 'SimDataExtractor'
+						$begin 'QuantityIDs'
+							NextUniqueID=0
+							MoveBackwards=false
+							IDMap()
+						$end 'QuantityIDs'
+					$end 'SimDataExtractor'
+				$end 'Solution'
+				$begin 'Solution'
+					ID=102
+					Name='LastAdaptive'
+					$begin 'SimDataExtractor'
+						$begin 'QuantityIDs'
+							NextUniqueID=0
+							MoveBackwards=false
+							IDMap()
+						$end 'QuantityIDs'
+						SimValue('Voltage', 1, 68, false, SimValueID=159, 3, 0, 2, 0, false, false, 707, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Mag_E', 1, 154, false, SimValueID=160, 3, 0, 2, 0, false, false, 707, 1, 0, 1, 1, '', 0, 0)
+						$begin 'Sweeps'
+							$begin 'PostprocessSweep'
+								Variable='NormalizedDistance'
+								RegularSweep=1
+								Units=''
+								Minimum=0
+								Maximum=1
+								Increment=0.01
+								CreateIndexedSubsweepFlag=false
+							$end 'PostprocessSweep'
+							$begin 'PostprocessSweep'
+								Variable='Phi'
+								RegularSweep=1
+								Units='deg'
+								Minimum=0
+								Maximum=6.28318530717959
+								Increment=0.0872664625997165
+								CreateIndexedSubsweepFlag=false
+							$end 'PostprocessSweep'
+							$begin 'PostprocessSweep'
+								Variable='Theta'
+								RegularSweep=1
+								Units='deg'
+								Minimum=0
+								Maximum=6.28318530717959
+								Increment=0.0872664625997165
+								CreateIndexedSubsweepFlag=false
+							$end 'PostprocessSweep'
+							$begin 'PostprocessSweep'
+								Variable='Phase'
+								RegularSweep=1
+								Units='deg'
+								Minimum=0
+								Maximum=6.28318530717959
+								Increment=0.0872664625997165
+								CreateIndexedSubsweepFlag=false
+							$end 'PostprocessSweep'
+							$begin 'Sweep'
+								Variable='X'
+								Column='0'
+								Units=''
+							$end 'Sweep'
+						$end 'Sweeps'
+					$end 'SimDataExtractor'
+				$end 'Solution'
+			$end 'SimSetup'
+			$begin 'Version ID Map'
+				V=94
+				$begin 'Setup'
+					N='Setup1'
+					V=0
+					Soln(N='AdaptivePass', V=131)
+					Soln(N='LastAdaptive', V=131)
+				$end 'Setup'
+			$end 'Version ID Map'
+			$begin 'ID Map'
+				$begin 'Setup'
+					N='Setup1'
+					I=100
+					Soln(N='AdaptivePass', I=101)
+					Soln(N='LastAdaptive', I=102)
+				$end 'Setup'
+			$end 'ID Map'
+		$end 'SolutionManager'
+		$begin 'UserDefinedSolutionMgr'
+			NextUniqueID=1000000
+			MoveBackwards=false
+		$end 'UserDefinedSolutionMgr'
+		$begin 'DatasetSolutionMgr'
+			NextUniqueID=2000000
+			MoveBackwards=false
+		$end 'DatasetSolutionMgr'
+		Notes=$begin_cdata$		$end_cdata$
+		$begin 'AnimationSetups'
+		$end 'AnimationSetups'
+		CacheHeaderFile='HDR57A72664417284656377.tmp'
+	$end 'Maxwell2DModel'
+	$begin 'DataInstances'
+		$begin 'Instance'
+			DesignEditor='Maxwell2DDesign1'
+			$begin 'Maxwell2DDesignInstance'
+				DesignInstanceID=3
+				$begin 'WindowPosition'
+					$begin 'EditorWindow'
+						'3D Modeler'(Editor3d(View(WindowPos(3, -1, -1, -8, -31, 78, 78, 828, 472), OrientationMatrix(0.591609299182892, 3.23556230657056e-032, 4.00593428432545e-032, 0, -4.46815747097839e-032, -4.81482486096809e-035, -0.591607987880707, 0, 3.38963670212154e-032, 0.591608166694641, 4.81482486096809e-035, 0, 0.429512023925781, -15.2309741973877, -7.74935913085938, 1, 0, -285.111267089844, 226.041412353516, -120.967269897461, 166.572418212891, -358.695495605469, 373.084777832031), Drawings[6: 'quyu', 'daoxian1', 'jiekou', 'jueyuan', 'Length1', 'Mag_E3'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+					$end 'EditorWindow'
+				$end 'WindowPosition'
+				$begin 'ReportSetup'
+					$begin 'ReportManager'
+						$begin 'Reports'
+						$end 'Reports'
+						NextUniqueID=0
+						MoveBackwards=false
+						$begin 'NextVersID'
+							NextUniqueID=0
+							MoveBackwards=false
+						$end 'NextVersID'
+					$end 'ReportManager'
+					$begin 'Reports'
+					$end 'Reports'
+					$begin 'ReportsWindowInfoList'
+					$end 'ReportsWindowInfoList'
+				$end 'ReportSetup'
+				$begin 'Properties'
+				$end 'Properties'
+				$begin 'UserDefinedDocument'
+					$begin 'Data'
+					$end 'Data'
+				$end 'UserDefinedDocument'
+			$end 'Maxwell2DDesignInstance'
+		$end 'Instance'
+	$end 'DataInstances'
+	$begin 'WBSystemIDToDesignInstanceIDMap'
+	$end 'WBSystemIDToDesignInstanceIDMap'
+	$begin 'WBSysIDSysDetails'
+	$end 'WBSysIDSysDetails'
+	$begin 'WBConnIDConnDetails'
+	$end 'WBConnIDConnDetails'
+$end 'AnsoftProject'
+$begin 'ProjectPreview'
+	Thumbnail64='/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE\
+BAQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAg\
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgL/wAARCABgAGADASIAAhEBAxEB/\
+8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQR\
+BRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUp\
+TVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5us\
+LDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAA\
+AECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHB\
+CSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ\
+3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4u\
+Pk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+/iiiigAooooA+IP2u/27fAH7HevfC3wx4s+GH\
+xi+J2ufFnSPiNr2g2PwntPhfL/Zek/DC9+Hen+IrvX7n4nfFPwxDBvvPif4aS1jtJLySXbctIkKxK0n\
+yf8A8Pn/AIWf9Gmfth/+A/7J3/0WNeM/8Fi/+S9fsaf9ki/bE/8AUy/Y0r8xK/duDPD7h3POG8uzTH0\
+60sVifbczhVcY+5XqU42jZ292Cv3d2eXicXWpVp0425Y23XdJ/qftD/w+f+Fn/Rpn7Yf/AID/ALJ3/w\
+BFjX3F+yN+1z4K/bF8FeOfGngvwN8Sfh4vw8+JN18LfEfhz4pWvga28QR+ILbwN4C+IaXlm/w88e+I9\
+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'
+	$begin 'DesignInfo'
+		DesignName='Maxwell2DDesign1'
+		Notes=''
+		Factory='Maxwell 2D'
+		IsSolved=true
+		'Nominal Setups'[1: 'Setup1']
+		'Optimetrics Setups'[0:]
+		'Optimetrics Experiment Types'[0:]
+		Image64='/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE\
+BAQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAg\
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgL/wAARCADIAMgDASIAAhEBAxEB/\
+8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQR\
+BRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUp\
+TVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5us\
+LDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAA\
+AECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHB\
+CSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ\
+3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4u\
+Pk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+/iiiigAooooAKKKKACiiigAoor8vf+Cqvxu+N\
+PwR+FfwDuvgf8TdX+E+v/EL9pKy8AeJPE+g+G/h14n1abwknwD+P/xAm0m0s/if4K1/TbTzfEngLwzJ\
+JOth9pEdm8UU0aTS7vQyrLa+b5jhMsw0oQxGNmoQc21BN/zOMZNLTpF+hE5qnCU5bRV9D9QqK/k+/wC\
+GvP27/wDo934u/wDhqP2N/wD6F6j/AIa8/bv/AOj3fi7/AOGo/Y3/APoXq/Rv+IP8Tf8AQbgf/Btf/w\
+CZjj/tCh/LL7l/mf1g0V/J9/w15+3f/wBHu/F3/wANR+xv/wDQvUf8Neft3/8AR7vxd/8ADUfsb/8A0\
+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'
+	$end 'DesignInfo'
+$end 'ProjectPreview'

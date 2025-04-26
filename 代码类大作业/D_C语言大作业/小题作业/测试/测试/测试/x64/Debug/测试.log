@@ -1,0 +1,6 @@
+﻿  停车场管理系统.cpp
+C:\Users\Dragonborn\Desktop\测试\测试\停车场管理系统.cpp(7,22): warning C4305: “初始化”: 从“double”到“float”截断
+C:\Users\Dragonborn\Desktop\测试\测试\停车场管理系统.cpp(297,6): warning C4101: “i”: 未引用的局部变量
+C:\Users\Dragonborn\Desktop\测试\测试\停车场管理系统.cpp(455,10): warning C4101: “str1”: 未引用的局部变量
+C:\Users\Dragonborn\Desktop\测试\测试\停车场管理系统.cpp(455,20): warning C4101: “str2”: 未引用的局部变量
+  测试.vcxproj -> C:\Users\Dragonborn\Desktop\测试\x64\Debug\停车场管理系统.exe

@@ -1,0 +1,6 @@
+﻿  优化.cpp
+C:\Users\Dragonborn\Desktop\测试\测试\优化.cpp(13,22): warning C4305: “初始化”: 从“double”到“float”截断
+C:\Users\Dragonborn\Desktop\测试\测试\优化.cpp(303,6): warning C4101: “i”: 未引用的局部变量
+C:\Users\Dragonborn\Desktop\测试\测试\优化.cpp(463,10): warning C4101: “str1”: 未引用的局部变量
+C:\Users\Dragonborn\Desktop\测试\测试\优化.cpp(463,20): warning C4101: “str2”: 未引用的局部变量
+  测试.vcxproj -> C:\Users\Dragonborn\Desktop\测试\Debug\测试.exe

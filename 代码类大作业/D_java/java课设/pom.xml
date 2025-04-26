@@ -1,0 +1,5 @@
+<dependency>
+    <groupId>org.jfree</groupId>
+    <artifactId>jfreechart</artifactId>
+    <version>1.5.3</version> <!-- 确保使用最新稳定版本 -->
+</dependency>

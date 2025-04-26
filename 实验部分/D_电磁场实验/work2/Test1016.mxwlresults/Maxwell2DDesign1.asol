@@ -1,0 +1,202 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002024, month=000000000010, day=000000000016, hour=000000000019, min=000000000056, sec=000000000017)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000004768, lin=000000000179, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock14'
+	ProductName=''
+	CircuitName='Maxwell2DDesign1'
+	VersionID=552
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=584
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=573)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=573, Ver=552, Dir='DV573_V552.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=573, Ver=552, Dir='DV573_MI0_V552.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock14'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock14'
+	'SolutionKey(SimSetup=553, Instance=\'\', Solution=-3, VersionID=0)'='SolutionBlock18'
+	'SolutionKey(SimSetup=553, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock17'
+	'SolutionKey(SimSetup=553, Instance=\'SolutionDefinition\', Solution=554, VersionID=0)'='SolutionBlock15'
+	'SolutionKey(SimSetup=553, Instance=\'SolutionDefinition\', Solution=555, VersionID=0)'='SolutionBlock16'
+$end 'BlockMapName'
+$begin 'SolutionBlock17'
+	SimSetupID=553
+	SimSetupName='Setup1'
+	VersionID=0
+	SolveSetupID=8
+	$begin 'CurrMeshes'
+		IDDblMap(577, 1, 580, 2, 581, 3)
+		$begin 'DataMap'
+			VID=573
+			Ver=0
+			M(DblID=580, Dir='DV573_S553_V0.cmesh580/')
+			M(DblID=581, Dir='DV573_S553_V0.cmesh581/')
+		$end 'DataMap'
+	$end 'CurrMeshes'
+	$begin 'MeshOps'
+		OPS(VID=573, Ver=0, ID=0)
+	$end 'MeshOps'
+	$begin 'LastPassNumbers'
+		LP(VID=573, Ver=0, P=2)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=573, Ver=0, File='DV573_S553_V0.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=573, Ver=0, Dir='DV573_S553_MI0_V0.sd/')
+		$end 'SubData'
+	$end 'MI'
+	$begin 'MeshGeomInfo'
+		MGI(VID=573, Ver=0, Dir='DV573_S553_V0_MGI/')
+	$end 'MeshGeomInfo'
+$end 'SolutionBlock17'
+$begin 'SolutionBlock15'
+	SolutionName='AdaptivePass'
+	SolutionID=554
+	V=0
+	$begin 'States'
+		F(VID=573, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'NFSP'
+		$begin 'SubData'
+			ID=10
+			NFSP(VID=573, Ver=0, File='DV573_SOL554_NFSP10_V0.sd')
+		$end 'SubData'
+	$end 'NFSP'
+$end 'SolutionBlock15'
+$begin 'SolutionBlock16'
+	SolutionName='LastAdaptive'
+	SolutionID=555
+	V=0
+	$begin 'States'
+		F(VID=573, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'Fields'
+		IDDblMap(579, -1)
+		$begin 'DataMap'
+			VID=573
+			Ver=0
+			Field(DblID=579, Dir='DV573_SOL555_V0.Field579/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock16'
+$begin 'SolutionBlock18'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(tri=142, de_ee='(0.0053827, N/A)', ee=0.005382735825472525, te=1.28103603243468e-008, p=1)
+	c(tri=212, de_ee='(0.010391, 0.0047454)', ee=0.0103906425316466, te=1.280975241575227e-008, p=2, de=0.004745444929969899)
+$end 'SolutionBlock18'
+$begin 'SolutionBlock3'
+	SolutionName='LastAdaptive'
+	SolutionID=555
+	V=0
+	$begin '$begin '
+		ProductName=''
+		CircuitName='Maxwell2DDesign1'
+		VersionID=552
+		PostProcess=false
+		LossLess=true
+		NextUniqueID=585
+		MoveBackwards=false
+		$begin 'VariationIDs'
+			Map(V='', ID=574)
+		$end 'VariationIDs'
+		$begin 'LinkedDataList'
+		$end 'LinkedDataList'
+		$begin 'InitialMeshes'
+			M(VID=574, Ver=552, Dir='DV574_V552.imesh/')
+		$end 'InitialMeshes'
+		$begin 'MI'
+			$begin 'SubData'
+				ID=0
+				MI(VID=574, Ver=552, Dir='DV574_MI0_V552.sd/')
+			$end 'SubData'
+		$end 'MI'
+	$end '$begin '
+	rpolation=false
+	Frequencies()
+	SolutionType=1
+	CenterFreq=0
+$end 'SolutionBlock3'
+$begin 'SolutionBlock4'
+	SimSetupID=553
+	SimSetupName='Setup1'
+	VersionID=0
+	SolveSetupID=8
+	$begin 'CurrMeshes'
+		IDDblMap(577, 1, 580, 2, 581, 3, 582, 4)
+		$begin 'DataMap'
+			VID=574
+			Ver=0
+			M(DblID=581, Dir='DV574_S553_V0.cmesh581/')
+			M(DblID=582, Dir='DV574_S553_V0.cmesh582/')
+		$end 'DataMap'
+	$end 'CurrMeshes'
+	$begin 'LastPassNumbers'
+		LP(VID=574, Ver=0, P=3)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		Vmap(0, 563)
+		P(VID=574, Ver=0, File='DV574_S553_V563.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=574, Ver=0, Dir='DV574_S553_MI0_V0.sd/')
+		$end 'SubData'
+	$end 'MI'
+	$begin 'MeshGeomInfo'
+		MGI(VID=574, Ver=0, Dir='DV574_S553_V0_MGI/')
+	$end 'MeshGeomInfo'
+$end 'SolutionBlock4'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock4(pos=4031, lin=148, lvl=0)
+		BlockMapName(pos=877, lin=24, lvl=0)
+		SolutionBlock18(pos=2958, lin=106, lvl=0)
+		SolutionBlock15(pos=2130, lin=64, lvl=0)
+		SolutionBlock16(pos=2529, lin=84, lvl=0)
+		SolutionBlock17(pos=1354, lin=31, lvl=0)
+		SolutionBlock14(pos=370, lin=1, lvl=0)
+		SolutionBlock3(pos=3359, lin=116, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=4768, lin=179, lvl=0)
+	$end '$index$'
+$end '$index$'

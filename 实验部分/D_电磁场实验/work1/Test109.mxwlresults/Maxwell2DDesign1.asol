@@ -1,0 +1,145 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002024, month=000000000010, day=000000000009, hour=000000000023, min=000000000039, sec=000000000028)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000004259, lin=000000000124, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='Maxwell2DDesign1'
+	VersionID=94
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=172
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=120)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=120, Ver=94, Dir='DV120_V94.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=120, Ver=94, Dir='DV120_MI0_V94.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=100, Instance=\'\', Solution=-3, VersionID=0)'='SolutionBlock5'
+	'SolutionKey(SimSetup=100, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock4'
+	'SolutionKey(SimSetup=100, Instance=\'SolutionDefinition\', Solution=101, VersionID=131)'='SolutionBlock12'
+	'SolutionKey(SimSetup=100, Instance=\'SolutionDefinition\', Solution=102, VersionID=131)'='SolutionBlock13'
+$end 'BlockMapName'
+$begin 'SolutionBlock12'
+	SolutionName='AdaptivePass'
+	SolutionID=101
+	V=131
+	$begin 'States'
+		F(VID=120, Ver=131)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'NFSP'
+		$begin 'SubData'
+			ID=10
+			NFSP(VID=120, Ver=131, File='DV120_SOL101_NFSP10_V131.sd')
+		$end 'SubData'
+	$end 'NFSP'
+$end 'SolutionBlock12'
+$begin 'SolutionBlock13'
+	SolutionName='LastAdaptive'
+	SolutionID=102
+	V=131
+	$begin 'States'
+		F(VID=120, Ver=131)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'Fields'
+		IDDblMap(125, -1)
+		$begin 'DataMap'
+			VID=120
+			Ver=131
+			Field(DblID=125, Dir='DV120_SOL102_V131.Field125/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock13'
+$begin 'SolutionBlock4'
+	SimSetupID=100
+	SimSetupName='Setup1'
+	VersionID=0
+	SolveSetupID=0
+	$begin 'CurrMeshes'
+		IDDblMap(123, 1, 126, 2, 127, 3, 140, 4, 141, 5, 142, 6, 143, 7, 144, 8, 145, 9, 146, 10, 147, 11)
+		$begin 'DataMap'
+			VID=120
+			Ver=0
+			M(DblID=146, Dir='DV120_S100_V0.cmesh146/')
+			M(DblID=147, Dir='DV120_S100_V0.cmesh147/')
+		$end 'DataMap'
+	$end 'CurrMeshes'
+	$begin 'MeshOps'
+		OPS(VID=120, Ver=0, ID=0)
+	$end 'MeshOps'
+	$begin 'LastPassNumbers'
+		LP(VID=120, Ver=0, P=10)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=120, Ver=0, File='DV120_S100_V0.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=120, Ver=0, Dir='DV120_S100_MI0_V0.sd/')
+		$end 'SubData'
+	$end 'MI'
+	$begin 'MeshGeomInfo'
+		MGI(VID=120, Ver=0, Dir='DV120_S100_V0_MGI/')
+	$end 'MeshGeomInfo'
+$end 'SolutionBlock4'
+$begin 'SolutionBlock5'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(de_ee='(0, 0)', te=0, de=0, ee=0, p=1, tri=15346)
+	c(de_ee='(691.87, 0)', te=0.01486568427901351, de=0, ee=691.8662596290117, p=2, tri=15346)
+	c(de_ee='(540.2, 28.211)', te=0.01905937240995239, de=28.21052870643345, ee=540.2036261187412, p=3, tri=19967)
+	c(de_ee='(618.11, 31.505)', te=0.02506412119162469, de=31.50549059284218, ee=618.114935614352, p=4, tri=25959)
+	c(de_ee='(484.04, 24.058)', te=0.03109405191470139, de=24.05801774167779, ee=484.0383683962884, p=5, tri=33764)
+	c(de_ee='(684.89, 41.553)', te=0.04401447019832244, de=41.5527005585021, ee=684.8928501104318, p=6, tri=43894)
+	c(de_ee='(532.51, 20.967)', te=0.05324303533507249, de=20.96711625782965, ee=532.5052173075742, p=7, tri=57080)
+	c(de_ee='(741.22, 48.106)', te=0.07885605010323689, de=48.1058501022245, ee=741.222557704201, p=8, tri=74209)
+	c(de_ee='(575.3, 20.806)', te=0.09526255465773306, de=20.80563829029869, ee=575.3010885730361, p=9, tri=96489)
+	c(de_ee='(785.83, 53.534)', te=0.1462607809238614, de=53.53438866862105, ee=785.8255741601746, p=10, tri=125445)
+$end 'SolutionBlock5'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock5(pos=3033, lin=106, lvl=0)
+		BlockMapName(pos=870, lin=24, lvl=0)
+		SolutionBlock12(pos=1348, lin=31, lvl=0)
+		SolutionBlock13(pos=1755, lin=51, lvl=0)
+		SolutionBlock4(pos=2192, lin=73, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=4259, lin=124, lvl=0)
+	$end '$index$'
+$end '$index$'

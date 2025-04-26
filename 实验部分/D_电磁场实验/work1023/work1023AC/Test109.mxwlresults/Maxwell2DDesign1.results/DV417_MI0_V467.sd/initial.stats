@@ -1,0 +1,9 @@
+           | Num Elements | Min edge length | Max edge length | RMS edge length |   Min elem area |   Max elem area |  Mean elem area | Std Devn (area)
+       697 |            6 |         18.5901 |              75 |         55.9455 |         63.7875 |          281.25 |           187.5 |         99.9832
+       710 |            4 |         17.2725 |          28.206 |         23.3872 |          25.515 |          42.309 |          33.912 |         9.69602
+       923 |           14 |         45.6207 |             120 |         74.1293 |            67.5 |            2970 |         891.388 |         972.999
+       936 |            6 |         30.9233 |           57.99 |          46.611 |          86.985 |         130.478 |         109.988 |         19.5476
+NumTotalTris 30
+NumBkTris 0
+User_Units mm
+mesh_fileset_version 2

@@ -1,0 +1,78 @@
+$begin 'Profile'
+	$begin 'ProfileGroup'
+		StartInfo='Time: 2024/10/23 16:12:04; Host: LAPTOP09; Processor: 32; OS: NT 6.2; Maxwell 16.0.0'
+		TotalInfo='Time:  10/23/2024 16:12:10, Status: Normal Completion'
+		ProfileTask('', 0, 0, 0, 0, 0, 'Executing from C:\\Program Files\\AnsysEM\\Maxwell16.0\\Win64\\MAXWELL2DCOMENGINE.exe', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Desired RAM limit not set.', false, true)
+		ProfileTask('  Mesh (surface init)', 0, 0, 0, 0, 33672, '30 triangles', true, true)
+		ProfileTask('  Mesh (seed)', 0, 0, 0, 0, 50324, '14858 triangles', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Length1', false, true)
+		ProfileTask('Pass 1', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('    Solver DCS', 0, 0, 0, 0, 20264, '29257 matrix,    0KB disk', true, true)
+		ProfileTask('  SolvingForPass', 0, 0, 0, 0, 106904, '14858 triangles', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Pass 2', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('    Solver DCS', 1, 0, 0, 0, 26960, '37740 matrix,    0KB disk', true, true)
+		ProfileTask('  SolvingForPass', 1, 0, 0, 0, 139196, '19344 triangles', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Adaptive Passes Converged', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Frequency sweeping', 0, 0, 0, 0, 0, 'From 100 Hz to 400 Hz , 4 Steps', false, true)
+		ProfileTask('Frequency: 100 Hz', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('    Solver DCS', 0, 0, 0, 0, 26767, '37740 matrix,    0KB disk', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Frequency: 200 Hz', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('  SolveForFrequency', 0, 0, 0, 0, 93780, '', true, true)
+		ProfileTask('    Solver DCS', 0, 0, 0, 0, 26767, '37740 matrix,    0KB disk', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Frequency: 300 Hz', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('  SolveForFrequency', 0, 0, 0, 0, 113336, '', true, true)
+		ProfileTask('    Solver DCS', 0, 0, 0, 0, 26767, '37740 matrix,    0KB disk', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Frequency: 400 Hz', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('  SolveForFrequency', 0, 0, 0, 0, 113336, '', true, true)
+		ProfileTask('    Solver DCS', 0, 0, 0, 0, 26767, '37740 matrix,    0KB disk', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('  SolveForFrequency', 0, 0, 0, 0, 113744, '', true, true)
+		ProfileTask('  FrequencySweepLoop', 0, 0, 0, 0, 113744, '', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Solution Process', 0, 0, 0, 0, 0, 'Elapsed time : 00:00:06 , Maxwell2D ComEngine Memory : 44.4 M', false, true)
+	$end 'ProfileGroup'
+	$begin 'ProfileGroup'
+		StartInfo='Time: 2024/10/23 16:14:44; Host: LAPTOP09; Processor: 32; OS: NT 6.2; Maxwell 16.0.0'
+		TotalInfo='Time:  10/23/2024 16:14:45, Status: Normal Completion'
+		ProfileTask('', 0, 0, 0, 0, 0, 'Executing from C:\\Program Files\\AnsysEM\\Maxwell16.0\\Win64\\MAXWELL2DCOMENGINE.exe', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Desired RAM limit not set.', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Frequency sweeping', 0, 0, 0, 0, 0, 'From 100 Hz to 300 Hz , 2 Steps', false, true)
+		ProfileTask('Frequency: 100 Hz', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('    Solver DCS', 0, 0, 0, 0, 26767, '37740 matrix,    0KB disk', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Frequency: 300 Hz', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('  SolveForFrequency', 0, 0, 0, 0, 94368, '', true, true)
+		ProfileTask('    Solver DCS', 0, 0, 0, 0, 26767, '37740 matrix,    0KB disk', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('  SolveForFrequency', 0, 0, 0, 0, 112384, '', true, true)
+		ProfileTask('  FrequencySweepLoop', 0, 0, 0, 0, 112384, '', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Solution Process', 0, 0, 0, 0, 0, 'Elapsed time : 00:00:01 , Maxwell2D ComEngine Memory : 43.6 M', false, true)
+	$end 'ProfileGroup'
+	$begin 'ProfileGroup'
+		StartInfo='Time: 2024/10/23 16:20:06; Host: LAPTOP09; Processor: 32; OS: NT 6.2; Maxwell 16.0.0'
+		TotalInfo='Time:  10/23/2024 16:20:09, Status: Normal Completion'
+		ProfileTask('', 0, 0, 0, 0, 0, 'Executing from C:\\Program Files\\AnsysEM\\Maxwell16.0\\Win64\\MAXWELL2DCOMENGINE.exe', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Desired RAM limit not set.', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Frequency sweeping', 0, 0, 0, 0, 0, 'From 100 Hz to 300 Hz , 2 Steps', false, true)
+		ProfileTask('Frequency: 100 Hz', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('    Solver DCS', 0, 0, 0, 0, 26767, '37740 matrix,    0KB disk', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Frequency: 300 Hz', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('  SolveForFrequency', 0, 0, 0, 0, 93800, '', true, true)
+		ProfileTask('    Solver DCS', 1, 0, 0, 0, 26767, '37740 matrix,    0KB disk', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('  SolveForFrequency', 0, 0, 0, 0, 113396, '', true, true)
+		ProfileTask('  FrequencySweepLoop', 0, 0, 0, 0, 113396, '', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Solution Process', 0, 0, 0, 0, 0, 'Elapsed time : 00:00:02 , Maxwell2D ComEngine Memory : 43.6 M', false, true)
+	$end 'ProfileGroup'
+$end 'Profile'
